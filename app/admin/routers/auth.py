@@ -4,6 +4,7 @@ from aiogram import F, Router
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
+from aiogram.types import CallbackQuery, Message
 
 from app.admin.config import admin_config
 from app.admin.keyboards.menu import build_admin_menu_keyboard
@@ -149,6 +150,21 @@ async def change_password_start(message: Message, state: FSMContext):
     await state.set_state(AdminAuthStates.waiting_new_password)
     await message.answer(_text(lang, "password_change_prompt"))
 
+@router.callback_query(F.data == "admin:change_password")
+async def change_password_button(call: CallbackQuery, state: FSMContext):
+    if not call.from_user:
+        return
+
+    user_id = call.from_user.id
+    lang = await get_user_language(user_id)
+
+    if user_id != admin_config.ADMIN_OWNER_ID or admin_config.ADMIN_OWNER_ID == 0:
+        await call.answer(_text(lang, "owner_only"), show_alert=True)
+        return
+
+    await state.set_state(AdminAuthStates.waiting_new_password)
+    await safe_replace_text(call.message, _text(lang, "password_change_prompt"), parse_mode=None)
+    await call.answer()
 
 @router.message(AdminAuthStates.waiting_new_password, F.text)
 async def change_password_finish(message: Message, state: FSMContext):

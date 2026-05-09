@@ -4353,3 +4353,1688 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query
 2026-05-09 07:00:30,196 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
 2026-05-09 07:00:30,808 | INFO | aiogram.dispatcher | Start polling
 2026-05-09 07:00:30,843 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 08:21:28,016 | INFO | __main__ | Bot is starting...
+2026-05-09 08:21:28,017 | ERROR | app.services.runtime_lock | Another bot instance is already running. Use a single process for this version.
+Traceback (most recent call last):
+  File "C:\Users\borod\OneDrive\Desktop\waifu_bot\app\services\runtime_lock.py", line 39, in acquire_runtime_lock
+    msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied
+2026-05-09 08:21:28,018 | ERROR | __main__ | Startup aborted because another instance holds the runtime lock.
+2026-05-09 08:21:34,103 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 08:21:34,106 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 08:21:34,106 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 08:21:34,365 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 08:21:34,409 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)
+2026-05-09 08:21:44,420 | INFO | __main__ | Bot is starting...
+2026-05-09 08:21:44,421 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
+2026-05-09 08:21:45,055 | INFO | aiogram.dispatcher | Start polling
+2026-05-09 08:21:45,090 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 09:00:49,854 | INFO | aiogram.event | Update id=90781151 is handled. Duration 213 ms by bot id=8508853940
+2026-05-09 09:00:51,901 | INFO | aiogram.event | Update id=90781152 is handled. Duration 805 ms by bot id=8508853940
+2026-05-09 09:01:02,029 | INFO | aiogram.event | Update id=90781153 is handled. Duration 87 ms by bot id=8508853940
+2026-05-09 09:01:05,062 | INFO | aiogram.event | Update id=90781154 is handled. Duration 788 ms by bot id=8508853940
+2026-05-09 09:04:33,114 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 09:04:33,115 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 09:04:33,115 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 09:04:33,371 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 09:04:33,376 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)
+2026-05-09 09:04:43,762 | INFO | __main__ | Bot is starting...
+2026-05-09 09:04:43,763 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
+2026-05-09 09:04:44,395 | INFO | aiogram.dispatcher | Start polling
+2026-05-09 09:04:44,432 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 09:04:48,148 | INFO | aiogram.event | Update id=90781155 is handled. Duration 4 ms by bot id=8508853940
+2026-05-09 09:04:48,813 | INFO | aiogram.event | Update id=90781156 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:04:49,507 | INFO | aiogram.event | Update id=90781157 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:04:50,866 | INFO | aiogram.event | Update id=90781158 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:04:51,634 | INFO | aiogram.event | Update id=90781159 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:04:52,342 | INFO | aiogram.event | Update id=90781160 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:04:53,145 | INFO | aiogram.event | Update id=90781161 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:04:54,973 | INFO | aiogram.event | Update id=90781162 is handled. Duration 793 ms by bot id=8508853940
+2026-05-09 09:04:55,023 | INFO | aiogram.event | Update id=90781163 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:00,799 | INFO | aiogram.event | Update id=90781164 is handled. Duration 93 ms by bot id=8508853940
+2026-05-09 09:05:03,241 | INFO | aiogram.event | Update id=90781165 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:03,804 | INFO | aiogram.event | Update id=90781166 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:04,408 | INFO | aiogram.event | Update id=90781167 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:05,062 | INFO | aiogram.event | Update id=90781168 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:05,717 | INFO | aiogram.event | Update id=90781169 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:06,832 | INFO | aiogram.event | Update id=90781170 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:07,541 | INFO | aiogram.event | Update id=90781171 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:08,300 | INFO | aiogram.event | Update id=90781172 is handled. Duration 103 ms by bot id=8508853940
+2026-05-09 09:05:08,803 | INFO | aiogram.event | Update id=90781173 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:11,105 | INFO | aiogram.event | Update id=90781174 is handled. Duration 69 ms by bot id=8508853940
+2026-05-09 09:05:12,144 | INFO | aiogram.event | Update id=90781175 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:12,675 | INFO | aiogram.event | Update id=90781176 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:13,391 | INFO | aiogram.event | Update id=90781177 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:14,474 | INFO | aiogram.event | Update id=90781178 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:15,036 | INFO | aiogram.event | Update id=90781179 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:15,704 | INFO | aiogram.event | Update id=90781180 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:16,214 | INFO | aiogram.event | Update id=90781181 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:17,520 | INFO | aiogram.event | Update id=90781182 is handled. Duration 69 ms by bot id=8508853940
+2026-05-09 09:05:18,020 | INFO | aiogram.event | Update id=90781183 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:21,856 | INFO | aiogram.event | Update id=90781184 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:24,545 | INFO | aiogram.event | Update id=90781185 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:25,105 | INFO | aiogram.event | Update id=90781186 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:26,093 | INFO | aiogram.event | Update id=90781187 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:26,631 | INFO | aiogram.event | Update id=90781188 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:27,163 | INFO | aiogram.event | Update id=90781189 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:27,689 | INFO | aiogram.event | Update id=90781190 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:28,698 | INFO | aiogram.event | Update id=90781191 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:29,188 | INFO | aiogram.event | Update id=90781192 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:30,256 | INFO | aiogram.event | Update id=90781193 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:31,413 | INFO | aiogram.event | Update id=90781194 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:31,990 | INFO | aiogram.event | Update id=90781195 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:32,541 | INFO | aiogram.event | Update id=90781196 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:33,208 | INFO | aiogram.event | Update id=90781197 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:49,507 | INFO | aiogram.event | Update id=90781198 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:50,027 | INFO | aiogram.event | Update id=90781199 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:51,855 | INFO | aiogram.event | Update id=90781200 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:52,448 | INFO | aiogram.event | Update id=90781201 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:53,039 | INFO | aiogram.event | Update id=90781202 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:53,618 | INFO | aiogram.event | Update id=90781203 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:54,720 | INFO | aiogram.event | Update id=90781204 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:55,271 | INFO | aiogram.event | Update id=90781205 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:55,839 | INFO | aiogram.event | Update id=90781206 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:57,004 | INFO | aiogram.event | Update id=90781207 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:58,685 | INFO | aiogram.event | Update id=90781208 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:05:59,361 | INFO | aiogram.event | Update id=90781209 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:00,081 | INFO | aiogram.event | Update id=90781210 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:06:01,278 | INFO | aiogram.event | Update id=90781211 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:02,763 | INFO | aiogram.event | Update id=90781212 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:03,272 | INFO | aiogram.event | Update id=90781213 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:04,261 | INFO | aiogram.event | Update id=90781214 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:04,744 | INFO | aiogram.event | Update id=90781215 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:05,913 | INFO | aiogram.event | Update id=90781216 is handled. Duration 85 ms by bot id=8508853940
+2026-05-09 09:06:06,343 | INFO | aiogram.event | Update id=90781217 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:08,088 | INFO | aiogram.event | Update id=90781218 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:08,764 | INFO | aiogram.event | Update id=90781219 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:09,353 | INFO | aiogram.event | Update id=90781220 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:10,535 | INFO | aiogram.event | Update id=90781221 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:11,102 | INFO | aiogram.event | Update id=90781222 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:11,664 | INFO | aiogram.event | Update id=90781223 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:13,340 | INFO | aiogram.event | Update id=90781224 is handled. Duration 594 ms by bot id=8508853940
+2026-05-09 09:06:13,834 | INFO | aiogram.event | Update id=90781225 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:34,338 | INFO | aiogram.event | Update id=90781226 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:37,705 | INFO | aiogram.event | Update id=90781227 is handled. Duration 93 ms by bot id=8508853940
+2026-05-09 09:06:40,899 | INFO | aiogram.event | Update id=90781228 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:41,451 | INFO | aiogram.event | Update id=90781229 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:42,010 | INFO | aiogram.event | Update id=90781230 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:43,246 | INFO | aiogram.event | Update id=90781231 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:43,738 | INFO | aiogram.event | Update id=90781232 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:44,918 | INFO | aiogram.event | Update id=90781233 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:46,053 | INFO | aiogram.event | Update id=90781234 is handled. Duration 78 ms by bot id=8508853940
+2026-05-09 09:06:47,783 | INFO | aiogram.event | Update id=90781235 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:49,127 | INFO | aiogram.event | Update id=90781236 is handled. Duration 60 ms by bot id=8508853940
+2026-05-09 09:06:50,768 | INFO | aiogram.event | Update id=90781237 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:51,402 | INFO | aiogram.event | Update id=90781238 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:52,548 | INFO | aiogram.event | Update id=90781239 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:53,106 | INFO | aiogram.event | Update id=90781240 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:53,674 | INFO | aiogram.event | Update id=90781241 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:54,363 | INFO | aiogram.event | Update id=90781242 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:54,894 | INFO | aiogram.event | Update id=90781243 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:55,542 | INFO | aiogram.event | Update id=90781244 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:56,233 | INFO | aiogram.event | Update id=90781245 is handled. Duration 71 ms by bot id=8508853940
+2026-05-09 09:06:57,673 | INFO | aiogram.event | Update id=90781246 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:58,442 | INFO | aiogram.event | Update id=90781247 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:06:58,962 | INFO | aiogram.event | Update id=90781248 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:01,638 | INFO | aiogram.event | Update id=90781249 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:07,246 | INFO | aiogram.event | Update id=90781250 is handled. Duration 68 ms by bot id=8508853940
+2026-05-09 09:07:09,143 | INFO | aiogram.event | Update id=90781251 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:09,691 | INFO | aiogram.event | Update id=90781252 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:10,821 | INFO | aiogram.event | Update id=90781253 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:11,426 | INFO | aiogram.event | Update id=90781254 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:12,911 | INFO | aiogram.event | Update id=90781255 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:13,469 | INFO | aiogram.event | Update id=90781256 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:14,156 | INFO | aiogram.event | Update id=90781257 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:14,686 | INFO | aiogram.event | Update id=90781258 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:15,819 | INFO | aiogram.event | Update id=90781259 is handled. Duration 501 ms by bot id=8508853940
+2026-05-09 09:07:16,058 | INFO | aiogram.event | Update id=90781260 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:21,838 | INFO | aiogram.event | Update id=90781261 is handled. Duration 66 ms by bot id=8508853940
+2026-05-09 09:07:23,784 | INFO | aiogram.event | Update id=90781262 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:24,413 | INFO | aiogram.event | Update id=90781263 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:25,152 | INFO | aiogram.event | Update id=90781264 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:26,473 | INFO | aiogram.event | Update id=90781265 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:27,016 | INFO | aiogram.event | Update id=90781266 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:27,591 | INFO | aiogram.event | Update id=90781267 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:28,164 | INFO | aiogram.event | Update id=90781268 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:29,852 | INFO | aiogram.event | Update id=90781270 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:29,882 | INFO | aiogram.event | Update id=90781269 is handled. Duration 549 ms by bot id=8508853940
+2026-05-09 09:07:30,544 | INFO | aiogram.event | Update id=90781271 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:33,522 | INFO | aiogram.event | Update id=90781272 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:34,048 | INFO | aiogram.event | Update id=90781273 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:34,667 | INFO | aiogram.event | Update id=90781274 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:35,863 | INFO | aiogram.event | Update id=90781275 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:36,423 | INFO | aiogram.event | Update id=90781276 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:37,044 | INFO | aiogram.event | Update id=90781277 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:38,306 | INFO | aiogram.event | Update id=90781278 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:39,022 | INFO | aiogram.event | Update id=90781279 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:39,686 | INFO | aiogram.event | Update id=90781280 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:40,256 | INFO | aiogram.event | Update id=90781281 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:41,417 | INFO | aiogram.event | Update id=90781282 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:41,919 | INFO | aiogram.event | Update id=90781283 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:42,505 | INFO | aiogram.event | Update id=90781284 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:07:43,678 | INFO | aiogram.event | Update id=90781285 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:44,253 | INFO | aiogram.event | Update id=90781286 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:44,818 | INFO | aiogram.event | Update id=90781287 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:45,998 | INFO | aiogram.event | Update id=90781288 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:46,581 | INFO | aiogram.event | Update id=90781289 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:47,158 | INFO | aiogram.event | Update id=90781290 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:47,834 | INFO | aiogram.event | Update id=90781291 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:49,049 | INFO | aiogram.event | Update id=90781292 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:49,672 | INFO | aiogram.event | Update id=90781293 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:50,372 | INFO | aiogram.event | Update id=90781294 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:51,576 | INFO | aiogram.event | Update id=90781295 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:52,130 | INFO | aiogram.event | Update id=90781296 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:52,777 | INFO | aiogram.event | Update id=90781297 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:54,032 | INFO | aiogram.event | Update id=90781298 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:07:54,580 | INFO | aiogram.event | Update id=90781299 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:07:55,603 | INFO | aiogram.event | Update id=90781300 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:56,279 | INFO | aiogram.event | Update id=90781301 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:57,038 | INFO | aiogram.event | Update id=90781302 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:07:57,766 | INFO | aiogram.event | Update id=90781303 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:58,888 | INFO | aiogram.event | Update id=90781304 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:07:59,493 | INFO | aiogram.event | Update id=90781305 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:08:00,069 | INFO | aiogram.event | Update id=90781306 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:01,190 | INFO | aiogram.event | Update id=90781307 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:02,273 | INFO | aiogram.event | Update id=90781308 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:02,862 | INFO | aiogram.event | Update id=90781309 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:04,101 | INFO | aiogram.event | Update id=90781310 is handled. Duration 610 ms by bot id=8508853940
+2026-05-09 09:08:04,594 | INFO | aiogram.event | Update id=90781311 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:21,723 | INFO | aiogram.event | Update id=90781312 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:08:24,514 | INFO | aiogram.event | Update id=90781313 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:25,035 | INFO | aiogram.event | Update id=90781314 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:25,553 | INFO | aiogram.event | Update id=90781315 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:26,115 | INFO | aiogram.event | Update id=90781316 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:08:27,160 | INFO | aiogram.event | Update id=90781317 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:28,094 | INFO | aiogram.event | Update id=90781318 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:28,804 | INFO | aiogram.event | Update id=90781319 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:30,482 | INFO | aiogram.event | Update id=90781321 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:08:30,674 | INFO | aiogram.event | Update id=90781320 is handled. Duration 744 ms by bot id=8508853940
+2026-05-09 09:08:31,184 | INFO | aiogram.event | Update id=90781322 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:09:49,859 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 09:09:49,860 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 09:09:49,860 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 09:09:50,114 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 09:09:50,120 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)
+2026-05-09 09:10:13,253 | INFO | __main__ | Bot is starting...
+2026-05-09 09:10:13,254 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
+2026-05-09 09:10:14,054 | INFO | aiogram.dispatcher | Start polling
+2026-05-09 09:10:14,088 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 09:10:17,642 | INFO | aiogram.event | Update id=90781323 is handled. Duration 5 ms by bot id=8508853940
+2026-05-09 09:10:21,890 | INFO | aiogram.event | Update id=90781325 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:22,080 | INFO | aiogram.event | Update id=90781324 is handled. Duration 776 ms by bot id=8508853940
+2026-05-09 09:10:23,707 | INFO | aiogram.event | Update id=90781326 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:24,165 | INFO | aiogram.event | Update id=90781327 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:25,257 | INFO | aiogram.event | Update id=90781328 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:25,819 | INFO | aiogram.event | Update id=90781329 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:26,479 | INFO | aiogram.event | Update id=90781330 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:27,594 | INFO | aiogram.event | Update id=90781331 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:28,301 | INFO | aiogram.event | Update id=90781332 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:29,209 | INFO | aiogram.event | Update id=90781333 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:10:29,818 | INFO | aiogram.event | Update id=90781334 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:30,515 | INFO | aiogram.event | Update id=90781335 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:31,030 | INFO | aiogram.event | Update id=90781336 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:10:32,255 | INFO | aiogram.event | Update id=90781337 is handled. Duration 590 ms by bot id=8508853940
+2026-05-09 09:10:32,853 | INFO | aiogram.event | Update id=90781338 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:11:01,482 | INFO | aiogram.event | Update id=90781339 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:11:08,075 | INFO | aiogram.event | Update id=90781340 is handled. Duration 78 ms by bot id=8508853940
+2026-05-09 09:11:12,361 | INFO | aiogram.event | Update id=90781341 is handled. Duration 489 ms by bot id=8508853940
+2026-05-09 09:11:15,274 | INFO | aiogram.event | Update id=90781342 is handled. Duration 330 ms by bot id=8508853940
+2026-05-09 09:11:22,392 | INFO | aiogram.event | Update id=90781343 is handled. Duration 730 ms by bot id=8508853940
+2026-05-09 09:19:21,496 | INFO | aiogram.event | Update id=90781344 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:19:21,968 | INFO | aiogram.event | Update id=90781345 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:24,297 | INFO | aiogram.event | Update id=90781346 is handled. Duration 578 ms by bot id=8508853940
+2026-05-09 09:19:37,567 | INFO | aiogram.event | Update id=90781347 is handled. Duration 99 ms by bot id=8508853940
+2026-05-09 09:19:38,395 | INFO | aiogram.event | Update id=90781348 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:39,166 | INFO | aiogram.event | Update id=90781349 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:41,610 | INFO | aiogram.event | Update id=90781350 is handled. Duration 717 ms by bot id=8508853940
+2026-05-09 09:19:41,831 | INFO | aiogram.event | Update id=90781351 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:43,156 | INFO | aiogram.event | Update id=90781352 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:43,762 | INFO | aiogram.event | Update id=90781353 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:44,309 | INFO | aiogram.event | Update id=90781354 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:44,945 | INFO | aiogram.event | Update id=90781355 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:45,528 | INFO | aiogram.event | Update id=90781356 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:46,564 | INFO | aiogram.event | Update id=90781357 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:47,032 | INFO | aiogram.event | Update id=90781358 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:47,524 | INFO | aiogram.event | Update id=90781359 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:48,267 | INFO | aiogram.event | Update id=90781360 is handled. Duration 62 ms by bot id=8508853940
+2026-05-09 09:19:48,531 | INFO | aiogram.event | Update id=90781361 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:49,605 | INFO | aiogram.event | Update id=90781362 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:50,146 | INFO | aiogram.event | Update id=90781363 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:50,770 | INFO | aiogram.event | Update id=90781364 is handled. Duration 110 ms by bot id=8508853940
+2026-05-09 09:19:51,222 | INFO | aiogram.event | Update id=90781365 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:52,823 | INFO | aiogram.event | Update id=90781366 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:53,419 | INFO | aiogram.event | Update id=90781367 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:53,941 | INFO | aiogram.event | Update id=90781368 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:54,462 | INFO | aiogram.event | Update id=90781369 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:55,008 | INFO | aiogram.event | Update id=90781370 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:55,557 | INFO | aiogram.event | Update id=90781371 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:56,118 | INFO | aiogram.event | Update id=90781372 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:56,626 | INFO | aiogram.event | Update id=90781373 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:57,347 | INFO | aiogram.event | Update id=90781374 is handled. Duration 68 ms by bot id=8508853940
+2026-05-09 09:19:57,897 | INFO | aiogram.event | Update id=90781375 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:58,401 | INFO | aiogram.event | Update id=90781376 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:19:58,974 | INFO | aiogram.event | Update id=90781377 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:00,247 | INFO | aiogram.event | Update id=90781378 is handled. Duration 674 ms by bot id=8508853940
+2026-05-09 09:20:00,249 | INFO | aiogram.event | Update id=90781379 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:01,435 | INFO | aiogram.event | Update id=90781380 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:01,909 | INFO | aiogram.event | Update id=90781381 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:02,980 | INFO | aiogram.event | Update id=90781382 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:03,571 | INFO | aiogram.event | Update id=90781383 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:04,124 | INFO | aiogram.event | Update id=90781384 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:04,747 | INFO | aiogram.event | Update id=90781385 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:05,255 | INFO | aiogram.event | Update id=90781386 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:05,835 | INFO | aiogram.event | Update id=90781387 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:06,508 | INFO | aiogram.event | Update id=90781388 is handled. Duration 88 ms by bot id=8508853940
+2026-05-09 09:20:30,564 | INFO | aiogram.event | Update id=90781389 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:31,103 | INFO | aiogram.event | Update id=90781390 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:31,987 | INFO | aiogram.event | Update id=90781391 is handled. Duration 315 ms by bot id=8508853940
+2026-05-09 09:20:32,245 | INFO | aiogram.event | Update id=90781392 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:40,130 | INFO | aiogram.event | Update id=90781393 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:20:42,986 | INFO | aiogram.event | Update id=90781394 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:43,502 | INFO | aiogram.event | Update id=90781395 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:44,993 | INFO | aiogram.event | Update id=90781396 is handled. Duration 152 ms by bot id=8508853940
+2026-05-09 09:20:45,351 | INFO | aiogram.event | Update id=90781397 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:49,364 | INFO | aiogram.event | Update id=90781398 is handled. Duration 67 ms by bot id=8508853940
+2026-05-09 09:20:50,923 | INFO | aiogram.event | Update id=90781399 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:51,395 | INFO | aiogram.event | Update id=90781400 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:52,946 | INFO | aiogram.event | Update id=90781401 is handled. Duration 85 ms by bot id=8508853940
+2026-05-09 09:20:53,522 | INFO | aiogram.event | Update id=90781402 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:54,898 | INFO | aiogram.event | Update id=90781403 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:20:55,419 | INFO | aiogram.event | Update id=90781404 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:56,580 | INFO | aiogram.event | Update id=90781405 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:57,134 | INFO | aiogram.event | Update id=90781406 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:57,854 | INFO | aiogram.event | Update id=90781407 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:58,969 | INFO | aiogram.event | Update id=90781408 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:20:59,576 | INFO | aiogram.event | Update id=90781409 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:00,312 | INFO | aiogram.event | Update id=90781410 is handled. Duration 75 ms by bot id=8508853940
+2026-05-09 09:21:00,942 | INFO | aiogram.event | Update id=90781411 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:01,473 | INFO | aiogram.event | Update id=90781412 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:02,120 | INFO | aiogram.event | Update id=90781413 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:03,401 | INFO | aiogram.event | Update id=90781414 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:21:03,885 | INFO | aiogram.event | Update id=90781415 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:09,228 | INFO | aiogram.event | Update id=90781416 is handled. Duration 79 ms by bot id=8508853940
+2026-05-09 09:21:11,697 | INFO | aiogram.event | Update id=90781417 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:12,231 | INFO | aiogram.event | Update id=90781418 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:13,354 | INFO | aiogram.event | Update id=90781419 is handled. Duration 498 ms by bot id=8508853940
+2026-05-09 09:21:14,001 | INFO | aiogram.event | Update id=90781420 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:14,995 | INFO | aiogram.event | Update id=90781421 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:15,616 | INFO | aiogram.event | Update id=90781422 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:16,675 | INFO | aiogram.event | Update id=90781423 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:17,269 | INFO | aiogram.event | Update id=90781424 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:18,454 | INFO | aiogram.event | Update id=90781425 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:18,974 | INFO | aiogram.event | Update id=90781426 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:20,333 | INFO | aiogram.event | Update id=90781427 is handled. Duration 159 ms by bot id=8508853940
+2026-05-09 09:21:20,922 | INFO | aiogram.event | Update id=90781428 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:21,377 | INFO | aiogram.event | Update id=90781429 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:22,587 | INFO | aiogram.event | Update id=90781430 is handled. Duration 127 ms by bot id=8508853940
+2026-05-09 09:21:23,009 | INFO | aiogram.event | Update id=90781431 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:24,178 | INFO | aiogram.event | Update id=90781432 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:25,214 | INFO | aiogram.event | Update id=90781433 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:25,764 | INFO | aiogram.event | Update id=90781434 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:27,299 | INFO | aiogram.event | Update id=90781435 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:27,855 | INFO | aiogram.event | Update id=90781436 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:28,433 | INFO | aiogram.event | Update id=90781437 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:29,072 | INFO | aiogram.event | Update id=90781438 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:29,802 | INFO | aiogram.event | Update id=90781439 is handled. Duration 140 ms by bot id=8508853940
+2026-05-09 09:21:30,259 | INFO | aiogram.event | Update id=90781440 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:31,031 | INFO | aiogram.event | Update id=90781441 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:21:31,616 | INFO | aiogram.event | Update id=90781442 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:19,427 | INFO | aiogram.event | Update id=90781443 is handled. Duration 115 ms by bot id=8508853940
+2026-05-09 09:22:23,416 | INFO | aiogram.event | Update id=90781444 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:22:23,938 | INFO | aiogram.event | Update id=90781445 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:24,913 | INFO | aiogram.event | Update id=90781446 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:25,413 | INFO | aiogram.event | Update id=90781447 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:22:26,616 | INFO | aiogram.event | Update id=90781448 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:27,028 | INFO | aiogram.event | Update id=90781449 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:27,644 | INFO | aiogram.event | Update id=90781450 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:28,863 | INFO | aiogram.event | Update id=90781451 is handled. Duration 71 ms by bot id=8508853940
+2026-05-09 09:22:29,413 | INFO | aiogram.event | Update id=90781452 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:30,131 | INFO | aiogram.event | Update id=90781453 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:31,832 | INFO | aiogram.event | Update id=90781455 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:32,049 | INFO | aiogram.event | Update id=90781454 is handled. Duration 678 ms by bot id=8508853940
+2026-05-09 09:22:33,760 | INFO | aiogram.event | Update id=90781456 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:34,220 | INFO | aiogram.event | Update id=90781457 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:35,366 | INFO | aiogram.event | Update id=90781458 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:35,902 | INFO | aiogram.event | Update id=90781459 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:37,000 | INFO | aiogram.event | Update id=90781460 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:37,464 | INFO | aiogram.event | Update id=90781461 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:38,526 | INFO | aiogram.event | Update id=90781462 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:39,075 | INFO | aiogram.event | Update id=90781463 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:40,225 | INFO | aiogram.event | Update id=90781464 is handled. Duration 70 ms by bot id=8508853940
+2026-05-09 09:22:40,637 | INFO | aiogram.event | Update id=90781465 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:41,882 | INFO | aiogram.event | Update id=90781466 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:42,417 | INFO | aiogram.event | Update id=90781467 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:43,660 | INFO | aiogram.event | Update id=90781469 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:43,662 | INFO | aiogram.event | Update id=90781468 is handled. Duration 689 ms by bot id=8508853940
+2026-05-09 09:22:46,774 | INFO | aiogram.event | Update id=90781470 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:47,208 | INFO | aiogram.event | Update id=90781471 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:48,697 | INFO | aiogram.event | Update id=90781472 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:49,730 | INFO | aiogram.event | Update id=90781473 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:50,222 | INFO | aiogram.event | Update id=90781474 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:51,258 | INFO | aiogram.event | Update id=90781475 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:51,872 | INFO | aiogram.event | Update id=90781476 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:53,033 | INFO | aiogram.event | Update id=90781477 is handled. Duration 64 ms by bot id=8508853940
+2026-05-09 09:22:53,546 | INFO | aiogram.event | Update id=90781478 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:54,145 | INFO | aiogram.event | Update id=90781479 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:56,243 | INFO | aiogram.event | Update id=90781481 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:22:56,707 | INFO | aiogram.event | Update id=90781480 is handled. Duration 1228 ms by bot id=8508853940
+2026-05-09 09:23:03,661 | INFO | aiogram.event | Update id=90781482 is handled. Duration 65 ms by bot id=8508853940
+2026-05-09 09:23:06,900 | INFO | aiogram.event | Update id=90781483 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:08,388 | INFO | aiogram.event | Update id=90781484 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:08,825 | INFO | aiogram.event | Update id=90781485 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:09,345 | INFO | aiogram.event | Update id=90781486 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:09,874 | INFO | aiogram.event | Update id=90781487 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:10,486 | INFO | aiogram.event | Update id=90781488 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:10,976 | INFO | aiogram.event | Update id=90781489 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:11,555 | INFO | aiogram.event | Update id=90781490 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:12,107 | INFO | aiogram.event | Update id=90781491 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:12,638 | INFO | aiogram.event | Update id=90781492 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:12,945 | INFO | aiogram.event | Update id=90781493 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:15,696 | INFO | aiogram.event | Update id=90781494 is handled. Duration 80 ms by bot id=8508853940
+2026-05-09 09:23:16,118 | INFO | aiogram.event | Update id=90781495 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:18,232 | INFO | aiogram.event | Update id=90781496 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:22,113 | INFO | aiogram.event | Update id=90781497 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:26,748 | INFO | aiogram.event | Update id=90781498 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:23:32,966 | INFO | aiogram.event | Update id=90781499 is handled. Duration 59 ms by bot id=8508853940
+2026-05-09 09:23:34,872 | INFO | aiogram.event | Update id=90781500 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:35,336 | INFO | aiogram.event | Update id=90781501 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:37,254 | INFO | aiogram.event | Update id=90781502 is handled. Duration 740 ms by bot id=8508853940
+2026-05-09 09:23:37,255 | INFO | aiogram.event | Update id=90781503 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:37,820 | INFO | aiogram.event | Update id=90781504 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:38,600 | INFO | aiogram.event | Update id=90781505 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:39,125 | INFO | aiogram.event | Update id=90781506 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:40,254 | INFO | aiogram.event | Update id=90781507 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:40,840 | INFO | aiogram.event | Update id=90781508 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:41,809 | INFO | aiogram.event | Update id=90781509 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:42,319 | INFO | aiogram.event | Update id=90781510 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:43,426 | INFO | aiogram.event | Update id=90781511 is handled. Duration 61 ms by bot id=8508853940
+2026-05-09 09:23:43,868 | INFO | aiogram.event | Update id=90781512 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:45,076 | INFO | aiogram.event | Update id=90781513 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:45,586 | INFO | aiogram.event | Update id=90781514 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:46,472 | INFO | aiogram.event | Update id=90781515 is handled. Duration 290 ms by bot id=8508853940
+2026-05-09 09:23:46,687 | INFO | aiogram.event | Update id=90781516 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:48,785 | INFO | aiogram.event | Update id=90781517 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:49,247 | INFO | aiogram.event | Update id=90781518 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:53,321 | INFO | aiogram.event | Update id=90781519 is handled. Duration 64 ms by bot id=8508853940
+2026-05-09 09:23:55,006 | INFO | aiogram.event | Update id=90781520 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:55,603 | INFO | aiogram.event | Update id=90781521 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:56,772 | INFO | aiogram.event | Update id=90781523 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:56,996 | INFO | aiogram.event | Update id=90781522 is handled. Duration 736 ms by bot id=8508853940
+2026-05-09 09:23:58,166 | INFO | aiogram.event | Update id=90781524 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:23:58,699 | INFO | aiogram.event | Update id=90781525 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:01,884 | INFO | aiogram.event | Update id=90781526 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:24:02,674 | INFO | aiogram.event | Update id=90781527 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:03,327 | INFO | aiogram.event | Update id=90781528 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:03,732 | INFO | aiogram.event | Update id=90781529 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:24:04,235 | INFO | aiogram.event | Update id=90781530 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:05,363 | INFO | aiogram.event | Update id=90781531 is handled. Duration 81 ms by bot id=8508853940
+2026-05-09 09:24:05,799 | INFO | aiogram.event | Update id=90781532 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:07,703 | INFO | aiogram.event | Update id=90781533 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:08,146 | INFO | aiogram.event | Update id=90781534 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:09,108 | INFO | aiogram.event | Update id=90781535 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:09,928 | INFO | aiogram.event | Update id=90781536 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:10,795 | INFO | aiogram.event | Update id=90781537 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:11,264 | INFO | aiogram.event | Update id=90781538 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:12,159 | INFO | aiogram.event | Update id=90781539 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:12,606 | INFO | aiogram.event | Update id=90781540 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:13,631 | INFO | aiogram.event | Update id=90781541 is handled. Duration 66 ms by bot id=8508853940
+2026-05-09 09:24:14,097 | INFO | aiogram.event | Update id=90781542 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:17,701 | INFO | aiogram.event | Update id=90781543 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:18,222 | INFO | aiogram.event | Update id=90781544 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:19,784 | INFO | aiogram.event | Update id=90781546 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:20,067 | INFO | aiogram.event | Update id=90781545 is handled. Duration 826 ms by bot id=8508853940
+2026-05-09 09:24:22,723 | INFO | aiogram.event | Update id=90781547 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:25,593 | INFO | aiogram.event | Update id=90781548 is handled. Duration 65 ms by bot id=8508853940
+2026-05-09 09:24:26,724 | INFO | aiogram.event | Update id=90781549 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:24:27,197 | INFO | aiogram.event | Update id=90781550 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:24:28,585 | INFO | aiogram.event | Update id=90781551 is handled. Duration 363 ms by bot id=8508853940
+2026-05-09 09:24:28,801 | INFO | aiogram.event | Update id=90781552 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:24:33,554 | INFO | aiogram.event | Update id=90781553 is handled. Duration 61 ms by bot id=8508853940
+2026-05-09 09:24:34,958 | INFO | aiogram.event | Update id=90781554 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:35,409 | INFO | aiogram.event | Update id=90781555 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:36,620 | INFO | aiogram.event | Update id=90781556 is handled. Duration 125 ms by bot id=8508853940
+2026-05-09 09:24:37,112 | INFO | aiogram.event | Update id=90781557 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:38,067 | INFO | aiogram.event | Update id=90781558 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:38,782 | INFO | aiogram.event | Update id=90781559 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:39,641 | INFO | aiogram.event | Update id=90781560 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:40,136 | INFO | aiogram.event | Update id=90781561 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:41,201 | INFO | aiogram.event | Update id=90781562 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:42,944 | INFO | aiogram.event | Update id=90781563 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:43,404 | INFO | aiogram.event | Update id=90781564 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:44,520 | INFO | aiogram.event | Update id=90781565 is handled. Duration 61 ms by bot id=8508853940
+2026-05-09 09:24:45,006 | INFO | aiogram.event | Update id=90781566 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:45,538 | INFO | aiogram.event | Update id=90781567 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:47,138 | INFO | aiogram.event | Update id=90781569 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:24:47,155 | INFO | aiogram.event | Update id=90781568 is handled. Duration 588 ms by bot id=8508853940
+2026-05-09 09:24:57,273 | INFO | aiogram.event | Update id=90781570 is handled. Duration 68 ms by bot id=8508853940
+2026-05-09 09:24:59,697 | INFO | aiogram.event | Update id=90781571 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:00,327 | INFO | aiogram.event | Update id=90781572 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:01,566 | INFO | aiogram.event | Update id=90781573 is handled. Duration 283 ms by bot id=8508853940
+2026-05-09 09:25:01,789 | INFO | aiogram.event | Update id=90781574 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:06,806 | INFO | aiogram.event | Update id=90781575 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:10,739 | INFO | aiogram.event | Update id=90781576 is handled. Duration 74 ms by bot id=8508853940
+2026-05-09 09:25:12,497 | INFO | aiogram.event | Update id=90781577 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:13,065 | INFO | aiogram.event | Update id=90781578 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:25:13,677 | INFO | aiogram.event | Update id=90781579 is handled. Duration 78 ms by bot id=8508853940
+2026-05-09 09:25:14,960 | INFO | aiogram.event | Update id=90781580 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:17,597 | INFO | aiogram.event | Update id=90781581 is handled. Duration 74 ms by bot id=8508853940
+2026-05-09 09:25:18,870 | INFO | aiogram.event | Update id=90781582 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:19,347 | INFO | aiogram.event | Update id=90781583 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:20,597 | INFO | aiogram.event | Update id=90781584 is handled. Duration 86 ms by bot id=8508853940
+2026-05-09 09:25:21,170 | INFO | aiogram.event | Update id=90781585 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:22,868 | INFO | aiogram.event | Update id=90781586 is handled. Duration 61 ms by bot id=8508853940
+2026-05-09 09:25:24,600 | INFO | aiogram.event | Update id=90781587 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:25,571 | INFO | aiogram.event | Update id=90781588 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:26,235 | INFO | aiogram.event | Update id=90781589 is handled. Duration 142 ms by bot id=8508853940
+2026-05-09 09:25:26,704 | INFO | aiogram.event | Update id=90781590 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:28,386 | INFO | aiogram.event | Update id=90781591 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:30,979 | INFO | aiogram.event | Update id=90781592 is handled. Duration 76 ms by bot id=8508853940
+2026-05-09 09:25:32,527 | INFO | aiogram.event | Update id=90781593 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:33,010 | INFO | aiogram.event | Update id=90781594 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:34,322 | INFO | aiogram.event | Update id=90781595 is handled. Duration 186 ms by bot id=8508853940
+2026-05-09 09:25:34,651 | INFO | aiogram.event | Update id=90781596 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:36,533 | INFO | aiogram.event | Update id=90781597 is handled. Duration 117 ms by bot id=8508853940
+2026-05-09 09:25:37,139 | INFO | aiogram.event | Update id=90781598 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:37,728 | INFO | aiogram.event | Update id=90781599 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:38,291 | INFO | aiogram.event | Update id=90781600 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:39,859 | INFO | aiogram.event | Update id=90781601 is handled. Duration 76 ms by bot id=8508853940
+2026-05-09 09:25:41,921 | INFO | aiogram.event | Update id=90781602 is handled. Duration 70 ms by bot id=8508853940
+2026-05-09 09:25:42,464 | INFO | aiogram.event | Update id=90781603 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:43,085 | INFO | aiogram.event | Update id=90781604 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:43,624 | INFO | aiogram.event | Update id=90781605 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:44,263 | INFO | aiogram.event | Update id=90781606 is handled. Duration 95 ms by bot id=8508853940
+2026-05-09 09:25:44,791 | INFO | aiogram.event | Update id=90781607 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:47,211 | INFO | aiogram.event | Update id=90781608 is handled. Duration 75 ms by bot id=8508853940
+2026-05-09 09:25:48,624 | INFO | aiogram.event | Update id=90781609 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 09:25:49,128 | INFO | aiogram.event | Update id=90781610 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:50,353 | INFO | aiogram.event | Update id=90781611 is handled. Duration 82 ms by bot id=8508853940
+2026-05-09 09:25:50,885 | INFO | aiogram.event | Update id=90781612 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:52,364 | INFO | aiogram.event | Update id=90781613 is handled. Duration 61 ms by bot id=8508853940
+2026-05-09 09:25:53,197 | INFO | aiogram.event | Update id=90781614 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:53,860 | INFO | aiogram.event | Update id=90781615 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:55,768 | INFO | aiogram.event | Update id=90781617 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:25:56,144 | INFO | aiogram.event | Update id=90781616 is handled. Duration 966 ms by bot id=8508853940
+2026-05-09 09:25:56,409 | INFO | aiogram.event | Update id=90781618 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:00,830 | INFO | aiogram.event | Update id=90781619 is handled. Duration 59 ms by bot id=8508853940
+2026-05-09 09:26:01,500 | INFO | aiogram.event | Update id=90781620 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:02,019 | INFO | aiogram.event | Update id=90781621 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:02,662 | INFO | aiogram.event | Update id=90781622 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:03,847 | INFO | aiogram.event | Update id=90781623 is handled. Duration 81 ms by bot id=8508853940
+2026-05-09 09:26:04,384 | INFO | aiogram.event | Update id=90781624 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:05,085 | INFO | aiogram.event | Update id=90781625 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:06,678 | INFO | aiogram.event | Update id=90781626 is handled. Duration 64 ms by bot id=8508853940
+2026-05-09 09:26:07,328 | INFO | aiogram.event | Update id=90781627 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:07,913 | INFO | aiogram.event | Update id=90781628 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:09,071 | INFO | aiogram.event | Update id=90781629 is handled. Duration 117 ms by bot id=8508853940
+2026-05-09 09:26:09,567 | INFO | aiogram.event | Update id=90781630 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:10,906 | INFO | aiogram.event | Update id=90781631 is handled. Duration 74 ms by bot id=8508853940
+2026-05-09 09:26:11,472 | INFO | aiogram.event | Update id=90781632 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:12,008 | INFO | aiogram.event | Update id=90781633 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:12,526 | INFO | aiogram.event | Update id=90781634 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:13,252 | INFO | aiogram.event | Update id=90781635 is handled. Duration 72 ms by bot id=8508853940
+2026-05-09 09:26:16,744 | INFO | aiogram.event | Update id=90781636 is handled. Duration 70 ms by bot id=8508853940
+2026-05-09 09:26:17,164 | INFO | aiogram.event | Update id=90781637 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:17,706 | INFO | aiogram.event | Update id=90781638 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:18,244 | INFO | aiogram.event | Update id=90781639 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:18,895 | INFO | aiogram.event | Update id=90781640 is handled. Duration 70 ms by bot id=8508853940
+2026-05-09 09:26:20,043 | INFO | aiogram.event | Update id=90781641 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:22,300 | INFO | aiogram.event | Update id=90781642 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:25,645 | INFO | aiogram.event | Update id=90781643 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:30,639 | INFO | aiogram.event | Update id=90781644 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:38,345 | INFO | aiogram.event | Update id=90781645 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 09:26:39,955 | INFO | aiogram.event | Update id=90781646 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:40,420 | INFO | aiogram.event | Update id=90781647 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 09:26:41,566 | INFO | aiogram.event | Update id=90781648 is handled. Duration 73 ms by bot id=8508853940
+2026-05-09 10:02:21,953 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 10:02:21,954 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 10:02:21,954 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 10:02:22,210 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 10:02:22,215 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)
+2026-05-09 11:14:16,510 | INFO | __main__ | Bot is starting...
+2026-05-09 11:14:16,511 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
+2026-05-09 11:14:17,113 | INFO | aiogram.dispatcher | Start polling
+2026-05-09 11:14:17,151 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 11:16:11,442 | INFO | aiogram.event | Update id=90781649 is handled. Duration 200 ms by bot id=8508853940
+2026-05-09 11:19:51,092 | INFO | aiogram.event | Update id=90781650 is handled. Duration 63 ms by bot id=8508853940
+2026-05-09 11:23:56,062 | INFO | aiogram.event | Update id=90781651 is handled. Duration 776 ms by bot id=8508853940
+2026-05-09 11:24:13,977 | INFO | aiogram.event | Update id=90781652 is handled. Duration 172 ms by bot id=8508853940
+2026-05-09 11:27:54,002 | INFO | aiogram.event | Update id=90781653 is handled. Duration 656 ms by bot id=8508853940
+2026-05-09 11:45:58,530 | INFO | aiogram.event | Update id=90781654 is handled. Duration 248 ms by bot id=8508853940
+2026-05-09 11:46:26,515 | INFO | aiogram.event | Update id=90781655 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:46:50,612 | INFO | aiogram.event | Update id=90781656 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:47:01,093 | INFO | aiogram.event | Update id=90781657 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:47:08,080 | INFO | aiogram.event | Update id=90781658 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:47:23,928 | INFO | aiogram.event | Update id=90781659 is handled. Duration 92 ms by bot id=8508853940
+2026-05-09 11:47:28,203 | INFO | aiogram.event | Update id=90781660 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:47:28,363 | INFO | aiogram.event | Update id=90781661 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:47:32,976 | INFO | aiogram.event | Update id=90781662 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:47:39,054 | INFO | aiogram.event | Update id=90781663 is handled. Duration 124 ms by bot id=8508853940
+2026-05-09 11:47:45,531 | INFO | aiogram.event | Update id=90781664 is handled. Duration 127 ms by bot id=8508853940
+2026-05-09 11:47:49,195 | INFO | aiogram.event | Update id=90781665 is handled. Duration 145 ms by bot id=8508853940
+2026-05-09 11:47:50,471 | INFO | aiogram.event | Update id=90781666 is handled. Duration 173 ms by bot id=8508853940
+2026-05-09 11:48:09,740 | INFO | aiogram.event | Update id=90781667 is handled. Duration 205 ms by bot id=8508853940
+2026-05-09 11:48:13,801 | INFO | aiogram.event | Update id=90781668 is handled. Duration 99 ms by bot id=8508853940
+2026-05-09 11:48:16,331 | INFO | aiogram.event | Update id=90781669 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:48:18,144 | INFO | aiogram.event | Update id=90781670 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:48:20,116 | INFO | aiogram.event | Update id=90781671 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:48:33,234 | INFO | aiogram.event | Update id=90781672 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:48:46,355 | INFO | aiogram.event | Update id=90781673 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:48:53,250 | INFO | aiogram.event | Update id=90781674 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:48:53,429 | INFO | aiogram.event | Update id=90781675 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:48:54,753 | INFO | aiogram.event | Update id=90781676 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:48:56,285 | INFO | aiogram.event | Update id=90781677 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:49:04,884 | INFO | aiogram.event | Update id=90781678 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:49:11,104 | INFO | aiogram.event | Update id=90781679 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:49:13,348 | INFO | aiogram.event | Update id=90781680 is handled. Duration 83 ms by bot id=8508853940
+2026-05-09 11:49:15,210 | INFO | aiogram.event | Update id=90781681 is handled. Duration 331 ms by bot id=8508853940
+2026-05-09 11:49:21,091 | INFO | aiogram.event | Update id=90781682 is handled. Duration 88 ms by bot id=8508853940
+2026-05-09 11:49:24,289 | INFO | aiogram.event | Update id=90781683 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:49:32,972 | INFO | aiogram.event | Update id=90781684 is handled. Duration 81 ms by bot id=8508853940
+2026-05-09 11:49:35,119 | INFO | aiogram.event | Update id=90781685 is handled. Duration 97 ms by bot id=8508853940
+2026-05-09 11:49:35,132 | INFO | aiogram.event | Update id=90781686 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:49:38,824 | INFO | aiogram.event | Update id=90781687 is handled. Duration 132 ms by bot id=8508853940
+2026-05-09 11:49:46,917 | INFO | aiogram.event | Update id=90781688 is handled. Duration 366 ms by bot id=8508853940
+2026-05-09 11:49:48,232 | INFO | aiogram.event | Update id=90781689 is handled. Duration 175 ms by bot id=8508853940
+2026-05-09 11:49:49,709 | INFO | aiogram.event | Update id=90781690 is handled. Duration 117 ms by bot id=8508853940
+2026-05-09 11:49:50,994 | INFO | aiogram.event | Update id=90781691 is handled. Duration 108 ms by bot id=8508853940
+2026-05-09 11:49:51,826 | INFO | aiogram.event | Update id=90781692 is handled. Duration 179 ms by bot id=8508853940
+2026-05-09 11:49:52,238 | INFO | aiogram.event | Update id=90781693 is handled. Duration 125 ms by bot id=8508853940
+2026-05-09 11:49:54,453 | INFO | aiogram.event | Update id=90781694 is handled. Duration 130 ms by bot id=8508853940
+2026-05-09 11:49:57,291 | INFO | aiogram.event | Update id=90781695 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:49:58,939 | INFO | aiogram.event | Update id=90781696 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:00,007 | INFO | aiogram.event | Update id=90781697 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:00,604 | INFO | aiogram.event | Update id=90781698 is handled. Duration 169 ms by bot id=8508853940
+2026-05-09 11:50:02,971 | INFO | aiogram.event | Update id=90781699 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:06,017 | INFO | aiogram.event | Update id=90781700 is handled. Duration 86 ms by bot id=8508853940
+2026-05-09 11:50:09,610 | INFO | aiogram.event | Update id=90781701 is handled. Duration 74 ms by bot id=8508853940
+2026-05-09 11:50:09,838 | INFO | aiogram.event | Update id=90781702 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:12,005 | INFO | aiogram.event | Update id=90781703 is handled. Duration 75 ms by bot id=8508853940
+2026-05-09 11:50:14,054 | INFO | aiogram.event | Update id=90781704 is handled. Duration 77 ms by bot id=8508853940
+2026-05-09 11:50:15,848 | INFO | aiogram.event | Update id=90781705 is handled. Duration 75 ms by bot id=8508853940
+2026-05-09 11:50:17,234 | INFO | aiogram.event | Update id=90781706 is handled. Duration 79 ms by bot id=8508853940
+2026-05-09 11:50:18,401 | INFO | aiogram.event | Update id=90781707 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:22,325 | INFO | aiogram.event | Update id=90781708 is handled. Duration 87 ms by bot id=8508853940
+2026-05-09 11:50:25,028 | INFO | aiogram.event | Update id=90781709 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:27,866 | INFO | aiogram.event | Update id=90781710 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:27,983 | INFO | aiogram.event | Update id=90781711 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:35,015 | INFO | aiogram.event | Update id=90781712 is handled. Duration 100 ms by bot id=8508853940
+2026-05-09 11:50:36,457 | INFO | aiogram.event | Update id=90781713 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:37,549 | INFO | aiogram.event | Update id=90781714 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:39,048 | INFO | aiogram.event | Update id=90781715 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:40,831 | INFO | aiogram.event | Update id=90781716 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:50:45,706 | INFO | aiogram.event | Update id=90781717 is handled. Duration 93 ms by bot id=8508853940
+2026-05-09 11:50:47,616 | INFO | aiogram.event | Update id=90781718 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:49,729 | INFO | aiogram.event | Update id=90781719 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:50,748 | INFO | aiogram.event | Update id=90781720 is handled. Duration 144 ms by bot id=8508853940
+2026-05-09 11:50:52,293 | INFO | aiogram.event | Update id=90781721 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:50:54,500 | INFO | aiogram.event | Update id=90781722 is handled. Duration 105 ms by bot id=8508853940
+2026-05-09 11:50:57,142 | INFO | aiogram.event | Update id=90781723 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:51:04,964 | INFO | aiogram.event | Update id=90781724 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:51:10,668 | INFO | aiogram.event | Update id=90781725 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:11,336 | INFO | aiogram.event | Update id=90781726 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:12,627 | INFO | aiogram.event | Update id=90781727 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:20,725 | INFO | aiogram.event | Update id=90781728 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:21,948 | INFO | aiogram.event | Update id=90781729 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:24,014 | INFO | aiogram.event | Update id=90781730 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:51:29,449 | INFO | aiogram.event | Update id=90781731 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:36,962 | INFO | aiogram.event | Update id=90781732 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:43,732 | INFO | aiogram.event | Update id=90781733 is handled. Duration 125 ms by bot id=8508853940
+2026-05-09 11:51:44,198 | INFO | aiogram.event | Update id=90781734 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:49,138 | INFO | aiogram.event | Update id=90781735 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:50,039 | INFO | aiogram.event | Update id=90781736 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 11:51:51,024 | INFO | aiogram.event | Update id=90781737 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:51:53,752 | INFO | aiogram.event | Update id=90781738 is handled. Duration 60 ms by bot id=8508853940
+2026-05-09 11:51:55,201 | INFO | aiogram.event | Update id=90781739 is handled. Duration 100 ms by bot id=8508853940
+2026-05-09 11:51:56,403 | INFO | aiogram.event | Update id=90781740 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:51:57,466 | INFO | aiogram.event | Update id=90781741 is handled. Duration 168 ms by bot id=8508853940
+2026-05-09 11:51:58,848 | INFO | aiogram.event | Update id=90781742 is handled. Duration 109 ms by bot id=8508853940
+2026-05-09 11:52:00,588 | INFO | aiogram.event | Update id=90781743 is handled. Duration 97 ms by bot id=8508853940
+2026-05-09 11:52:01,441 | INFO | aiogram.event | Update id=90781744 is handled. Duration 98 ms by bot id=8508853940
+2026-05-09 11:52:02,801 | INFO | aiogram.event | Update id=90781745 is handled. Duration 94 ms by bot id=8508853940
+2026-05-09 11:52:17,049 | INFO | aiogram.event | Update id=90781746 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:19,389 | INFO | aiogram.event | Update id=90781747 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:19,781 | INFO | aiogram.event | Update id=90781748 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:23,428 | INFO | aiogram.event | Update id=90781749 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:25,650 | INFO | aiogram.event | Update id=90781750 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:26,825 | INFO | aiogram.event | Update id=90781751 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:27,891 | INFO | aiogram.event | Update id=90781752 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:36,246 | INFO | aiogram.event | Update id=90781753 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:52:53,887 | INFO | aiogram.event | Update id=90781754 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:52:57,829 | INFO | aiogram.event | Update id=90781755 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:53:18,066 | INFO | aiogram.event | Update id=90781756 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:53:31,474 | INFO | aiogram.event | Update id=90781757 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:54:42,634 | INFO | aiogram.event | Update id=90781758 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:54:45,695 | INFO | aiogram.event | Update id=90781759 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:10,188 | INFO | aiogram.event | Update id=90781760 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:31,755 | INFO | aiogram.event | Update id=90781761 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:46,377 | INFO | aiogram.event | Update id=90781762 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:46,578 | INFO | aiogram.event | Update id=90781763 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:46,957 | INFO | aiogram.event | Update id=90781764 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:47,597 | INFO | aiogram.event | Update id=90781765 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:48,027 | INFO | aiogram.event | Update id=90781766 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:48,216 | INFO | aiogram.event | Update id=90781767 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:48,505 | INFO | aiogram.event | Update id=90781768 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:49,106 | INFO | aiogram.event | Update id=90781769 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:49,600 | INFO | aiogram.event | Update id=90781770 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:49,964 | INFO | aiogram.event | Update id=90781771 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:50,391 | INFO | aiogram.event | Update id=90781772 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:58,330 | INFO | aiogram.event | Update id=90781773 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:58,488 | INFO | aiogram.event | Update id=90781774 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:58,699 | INFO | aiogram.event | Update id=90781775 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:59,066 | INFO | aiogram.event | Update id=90781776 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:59,306 | INFO | aiogram.event | Update id=90781777 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:55:59,680 | INFO | aiogram.event | Update id=90781778 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:00,091 | INFO | aiogram.event | Update id=90781779 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:00,297 | INFO | aiogram.event | Update id=90781780 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:00,725 | INFO | aiogram.event | Update id=90781781 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:00,967 | INFO | aiogram.event | Update id=90781782 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:01,266 | INFO | aiogram.event | Update id=90781783 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:01,623 | INFO | aiogram.event | Update id=90781784 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:01,780 | INFO | aiogram.event | Update id=90781785 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:01,983 | INFO | aiogram.event | Update id=90781786 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:02,415 | INFO | aiogram.event | Update id=90781787 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:02,627 | INFO | aiogram.event | Update id=90781788 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:02,853 | INFO | aiogram.event | Update id=90781789 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:03,523 | INFO | aiogram.event | Update id=90781790 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:56:03,736 | INFO | aiogram.event | Update id=90781791 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:03,935 | INFO | aiogram.event | Update id=90781792 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:04,350 | INFO | aiogram.event | Update id=90781793 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:56:04,569 | INFO | aiogram.event | Update id=90781794 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:04,860 | INFO | aiogram.event | Update id=90781795 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:05,165 | INFO | aiogram.event | Update id=90781796 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:05,419 | INFO | aiogram.event | Update id=90781797 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:05,646 | INFO | aiogram.event | Update id=90781798 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:24,201 | INFO | aiogram.event | Update id=90781799 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:24,298 | INFO | aiogram.event | Update id=90781800 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:24,728 | INFO | aiogram.event | Update id=90781801 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:56:25,347 | INFO | aiogram.event | Update id=90781802 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:14,541 | INFO | aiogram.event | Update id=90781803 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:23,899 | INFO | aiogram.event | Update id=90781804 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:24,075 | INFO | aiogram.event | Update id=90781805 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:24,497 | INFO | aiogram.event | Update id=90781806 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:24,915 | INFO | aiogram.event | Update id=90781807 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:57:25,340 | INFO | aiogram.event | Update id=90781808 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:26,011 | INFO | aiogram.event | Update id=90781809 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:26,415 | INFO | aiogram.event | Update id=90781810 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:26,859 | INFO | aiogram.event | Update id=90781811 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:27,105 | INFO | aiogram.event | Update id=90781812 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:57:27,372 | INFO | aiogram.event | Update id=90781813 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:27,578 | INFO | aiogram.event | Update id=90781814 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:28,268 | INFO | aiogram.event | Update id=90781815 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:28,498 | INFO | aiogram.event | Update id=90781816 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:28,692 | INFO | aiogram.event | Update id=90781817 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:29,088 | INFO | aiogram.event | Update id=90781818 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:29,343 | INFO | aiogram.event | Update id=90781819 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:29,506 | INFO | aiogram.event | Update id=90781820 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:30,467 | INFO | aiogram.event | Update id=90781821 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:30,936 | INFO | aiogram.event | Update id=90781822 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:31,596 | INFO | aiogram.event | Update id=90781823 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:31,986 | INFO | aiogram.event | Update id=90781824 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:32,210 | INFO | aiogram.event | Update id=90781825 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:37,554 | INFO | aiogram.event | Update id=90781826 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:51,870 | INFO | aiogram.event | Update id=90781827 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:52,236 | INFO | aiogram.event | Update id=90781828 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:52,706 | INFO | aiogram.event | Update id=90781829 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:53,059 | INFO | aiogram.event | Update id=90781830 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:53,451 | INFO | aiogram.event | Update id=90781831 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:53,925 | INFO | aiogram.event | Update id=90781832 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:54,351 | INFO | aiogram.event | Update id=90781833 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:54,741 | INFO | aiogram.event | Update id=90781834 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:55,216 | INFO | aiogram.event | Update id=90781835 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:55,527 | INFO | aiogram.event | Update id=90781836 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:56,062 | INFO | aiogram.event | Update id=90781837 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:56,388 | INFO | aiogram.event | Update id=90781838 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:56,803 | INFO | aiogram.event | Update id=90781839 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:57:59,880 | INFO | aiogram.event | Update id=90781840 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:00,237 | INFO | aiogram.event | Update id=90781841 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:00,671 | INFO | aiogram.event | Update id=90781842 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:01,040 | INFO | aiogram.event | Update id=90781843 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:01,546 | INFO | aiogram.event | Update id=90781844 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:01,908 | INFO | aiogram.event | Update id=90781845 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:02,295 | INFO | aiogram.event | Update id=90781846 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:02,869 | INFO | aiogram.event | Update id=90781847 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:03,086 | INFO | aiogram.event | Update id=90781848 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:03,545 | INFO | aiogram.event | Update id=90781849 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:03,972 | INFO | aiogram.event | Update id=90781850 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:04,391 | INFO | aiogram.event | Update id=90781851 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:04,792 | INFO | aiogram.event | Update id=90781852 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:05,245 | INFO | aiogram.event | Update id=90781853 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:05,697 | INFO | aiogram.event | Update id=90781854 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:06,141 | INFO | aiogram.event | Update id=90781855 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:06,610 | INFO | aiogram.event | Update id=90781856 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:07,270 | INFO | aiogram.event | Update id=90781857 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:07,893 | INFO | aiogram.event | Update id=90781858 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:08,295 | INFO | aiogram.event | Update id=90781859 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:08,696 | INFO | aiogram.event | Update id=90781860 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:09,379 | INFO | aiogram.event | Update id=90781861 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:10,037 | INFO | aiogram.event | Update id=90781862 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:10,663 | INFO | aiogram.event | Update id=90781863 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:11,109 | INFO | aiogram.event | Update id=90781864 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:11,402 | INFO | aiogram.event | Update id=90781865 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:12,170 | INFO | aiogram.event | Update id=90781866 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:12,602 | INFO | aiogram.event | Update id=90781867 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:13,039 | INFO | aiogram.event | Update id=90781868 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:13,265 | INFO | aiogram.event | Update id=90781869 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:13,709 | INFO | aiogram.event | Update id=90781870 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:14,177 | INFO | aiogram.event | Update id=90781871 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:14,641 | INFO | aiogram.event | Update id=90781872 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:15,218 | INFO | aiogram.event | Update id=90781873 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:15,892 | INFO | aiogram.event | Update id=90781874 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:16,546 | INFO | aiogram.event | Update id=90781875 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:16,957 | INFO | aiogram.event | Update id=90781876 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:17,210 | INFO | aiogram.event | Update id=90781877 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:17,872 | INFO | aiogram.event | Update id=90781878 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:18,116 | INFO | aiogram.event | Update id=90781879 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:18,313 | INFO | aiogram.event | Update id=90781880 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:19,000 | INFO | aiogram.event | Update id=90781881 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:19,196 | INFO | aiogram.event | Update id=90781882 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:19,475 | INFO | aiogram.event | Update id=90781883 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:20,063 | INFO | aiogram.event | Update id=90781884 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:20,865 | INFO | aiogram.event | Update id=90781885 is handled. Duration 364 ms by bot id=8508853940
+2026-05-09 11:58:20,954 | INFO | aiogram.event | Update id=90781886 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:21,187 | INFO | aiogram.event | Update id=90781887 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:21,404 | INFO | aiogram.event | Update id=90781888 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:58:25,500 | INFO | aiogram.event | Update id=90781889 is handled. Duration 107 ms by bot id=8508853940
+2026-05-09 11:58:27,705 | INFO | aiogram.event | Update id=90781890 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 11:58:36,252 | INFO | aiogram.event | Update id=90781891 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 11:58:46,162 | INFO | aiogram.event | Update id=90781892 is handled. Duration 114 ms by bot id=8508853940
+2026-05-09 11:58:50,680 | INFO | aiogram.event | Update id=90781893 is handled. Duration 169 ms by bot id=8508853940
+2026-05-09 11:58:57,511 | INFO | aiogram.event | Update id=90781894 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:59:01,023 | INFO | aiogram.event | Update id=90781895 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:59:15,225 | INFO | aiogram.event | Update id=90781896 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 11:59:20,628 | INFO | aiogram.event | Update id=90781897 is handled. Duration 105 ms by bot id=8508853940
+2026-05-09 11:59:34,939 | INFO | aiogram.event | Update id=90781898 is handled. Duration 126 ms by bot id=8508853940
+2026-05-09 11:59:49,672 | INFO | aiogram.event | Update id=90781899 is handled. Duration 136 ms by bot id=8508853940
+2026-05-09 11:59:51,136 | INFO | aiogram.event | Update id=90781900 is handled. Duration 146 ms by bot id=8508853940
+2026-05-09 12:00:05,647 | INFO | aiogram.event | Update id=90781901 is handled. Duration 138 ms by bot id=8508853940
+2026-05-09 12:00:06,918 | INFO | aiogram.event | Update id=90781902 is handled. Duration 125 ms by bot id=8508853940
+2026-05-09 12:00:31,096 | INFO | aiogram.event | Update id=90781903 is handled. Duration 483 ms by bot id=8508853940
+2026-05-09 12:00:33,549 | INFO | aiogram.event | Update id=90781904 is handled. Duration 131 ms by bot id=8508853940
+2026-05-09 12:01:01,243 | INFO | aiogram.event | Update id=90781905 is handled. Duration 308 ms by bot id=8508853940
+2026-05-09 12:01:03,473 | INFO | aiogram.event | Update id=90781906 is handled. Duration 238 ms by bot id=8508853940
+2026-05-09 12:01:13,008 | INFO | aiogram.event | Update id=90781907 is handled. Duration 122 ms by bot id=8508853940
+2026-05-09 12:01:14,121 | INFO | aiogram.event | Update id=90781908 is handled. Duration 206 ms by bot id=8508853940
+2026-05-09 12:02:01,214 | INFO | aiogram.event | Update id=90781909 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:02:13,399 | INFO | aiogram.event | Update id=90781910 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:02:22,529 | INFO | aiogram.event | Update id=90781911 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:02:29,952 | INFO | aiogram.event | Update id=90781912 is handled. Duration 119 ms by bot id=8508853940
+2026-05-09 12:02:42,860 | INFO | aiogram.event | Update id=90781913 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:02:50,752 | INFO | aiogram.event | Update id=90781914 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:03:02,476 | INFO | aiogram.event | Update id=90781915 is handled. Duration 152 ms by bot id=8508853940
+2026-05-09 12:03:06,056 | INFO | aiogram.event | Update id=90781916 is handled. Duration 141 ms by bot id=8508853940
+2026-05-09 12:03:09,211 | INFO | aiogram.event | Update id=90781917 is handled. Duration 143 ms by bot id=8508853940
+2026-05-09 12:03:10,561 | INFO | aiogram.event | Update id=90781918 is handled. Duration 132 ms by bot id=8508853940
+2026-05-09 12:03:11,424 | INFO | aiogram.event | Update id=90781919 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:03:18,710 | INFO | aiogram.event | Update id=90781920 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:03:30,329 | INFO | aiogram.event | Update id=90781921 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:03:33,813 | INFO | aiogram.event | Update id=90781922 is handled. Duration 143 ms by bot id=8508853940
+2026-05-09 12:03:36,852 | INFO | aiogram.event | Update id=90781923 is handled. Duration 914 ms by bot id=8508853940
+2026-05-09 12:04:07,268 | INFO | aiogram.event | Update id=90781924 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:11,947 | INFO | aiogram.event | Update id=90781925 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:20,600 | INFO | aiogram.event | Update id=90781926 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 12:04:22,473 | INFO | aiogram.event | Update id=90781927 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:23,994 | INFO | aiogram.event | Update id=90781928 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:29,674 | INFO | aiogram.event | Update id=90781929 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:31,373 | INFO | aiogram.event | Update id=90781930 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:38,506 | INFO | aiogram.event | Update id=90781931 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:04:42,494 | INFO | aiogram.event | Update id=90781932 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:49,384 | INFO | aiogram.event | Update id=90781933 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:49,428 | INFO | aiogram.event | Update id=90781934 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:49,961 | INFO | aiogram.event | Update id=90781935 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:04:54,944 | INFO | aiogram.event | Update id=90781936 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:00,009 | INFO | aiogram.event | Update id=90781937 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:04,971 | INFO | aiogram.event | Update id=90781938 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:06,190 | INFO | aiogram.event | Update id=90781939 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:07,805 | INFO | aiogram.event | Update id=90781940 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:17,791 | INFO | aiogram.event | Update id=90781941 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:26,769 | INFO | aiogram.event | Update id=90781942 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:36,127 | INFO | aiogram.event | Update id=90781943 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:36,709 | INFO | aiogram.event | Update id=90781944 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:36,906 | INFO | aiogram.event | Update id=90781945 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:46,085 | INFO | aiogram.event | Update id=90781946 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:05:59,425 | INFO | aiogram.event | Update id=90781947 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:04,962 | INFO | aiogram.event | Update id=90781948 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:05,588 | INFO | aiogram.event | Update id=90781949 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:07,951 | INFO | aiogram.event | Update id=90781950 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:21,990 | INFO | aiogram.event | Update id=90781951 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:35,631 | INFO | aiogram.event | Update id=90781952 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:36,988 | INFO | aiogram.event | Update id=90781953 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:37,519 | INFO | aiogram.event | Update id=90781954 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:39,404 | INFO | aiogram.event | Update id=90781955 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:46,632 | INFO | aiogram.event | Update id=90781956 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:06:47,946 | INFO | aiogram.event | Update id=90781957 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:53,950 | INFO | aiogram.event | Update id=90781958 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:06:57,348 | INFO | aiogram.event | Update id=90781959 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:06,877 | INFO | aiogram.event | Update id=90781960 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:16,731 | INFO | aiogram.event | Update id=90781961 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:19,180 | INFO | aiogram.event | Update id=90781962 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:19,467 | INFO | aiogram.event | Update id=90781963 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:19,659 | INFO | aiogram.event | Update id=90781964 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:24,444 | INFO | aiogram.event | Update id=90781965 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:07:26,497 | INFO | aiogram.event | Update id=90781966 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:30,407 | INFO | aiogram.event | Update id=90781967 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:30,909 | INFO | aiogram.event | Update id=90781968 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:42,727 | INFO | aiogram.event | Update id=90781969 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:45,017 | INFO | aiogram.event | Update id=90781970 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:53,505 | INFO | aiogram.event | Update id=90781971 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:56,159 | INFO | aiogram.event | Update id=90781972 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:07:59,750 | INFO | aiogram.event | Update id=90781973 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:03,519 | INFO | aiogram.event | Update id=90781974 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:03,663 | INFO | aiogram.event | Update id=90781975 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:13,276 | INFO | aiogram.event | Update id=90781976 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:13,434 | INFO | aiogram.event | Update id=90781977 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:18,877 | INFO | aiogram.event | Update id=90781978 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:27,398 | INFO | aiogram.event | Update id=90781979 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:37,636 | INFO | aiogram.event | Update id=90781980 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:39,741 | INFO | aiogram.event | Update id=90781981 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:41,825 | INFO | aiogram.event | Update id=90781982 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:42,030 | INFO | aiogram.event | Update id=90781983 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:44,217 | INFO | aiogram.event | Update id=90781984 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:51,204 | INFO | aiogram.event | Update id=90781985 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:53,370 | INFO | aiogram.event | Update id=90781986 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:08:55,095 | INFO | aiogram.event | Update id=90781987 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:09:02,730 | INFO | aiogram.event | Update id=90781988 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:04,855 | INFO | aiogram.event | Update id=90781989 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:12,789 | INFO | aiogram.event | Update id=90781990 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:17,615 | INFO | aiogram.event | Update id=90781991 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:21,576 | INFO | aiogram.event | Update id=90781992 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:28,663 | INFO | aiogram.event | Update id=90781993 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:29,714 | INFO | aiogram.event | Update id=90781994 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:30,070 | INFO | aiogram.event | Update id=90781995 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:09:32,710 | INFO | aiogram.event | Update id=90781996 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:10:13,854 | INFO | aiogram.event | Update id=90781997 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:15,998 | INFO | aiogram.event | Update id=90781998 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:27,731 | INFO | aiogram.event | Update id=90781999 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:28,442 | INFO | aiogram.event | Update id=90782000 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:31,106 | INFO | aiogram.event | Update id=90782001 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:35,374 | INFO | aiogram.event | Update id=90782002 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:40,298 | INFO | aiogram.event | Update id=90782003 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:43,334 | INFO | aiogram.event | Update id=90782004 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:44,188 | INFO | aiogram.event | Update id=90782005 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:56,025 | INFO | aiogram.event | Update id=90782006 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:57,027 | INFO | aiogram.event | Update id=90782007 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:57,558 | INFO | aiogram.event | Update id=90782008 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:10:59,801 | INFO | aiogram.event | Update id=90782009 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:07,552 | INFO | aiogram.event | Update id=90782010 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:08,939 | INFO | aiogram.event | Update id=90782011 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:19,458 | INFO | aiogram.event | Update id=90782012 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:23,207 | INFO | aiogram.event | Update id=90782013 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:27,095 | INFO | aiogram.event | Update id=90782014 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:11:31,498 | INFO | aiogram.event | Update id=90782015 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:34,958 | INFO | aiogram.event | Update id=90782016 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:11:40,267 | INFO | aiogram.event | Update id=90782017 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:45,474 | INFO | aiogram.event | Update id=90782018 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:11:53,596 | INFO | aiogram.event | Update id=90782019 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:01,996 | INFO | aiogram.event | Update id=90782020 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:04,793 | INFO | aiogram.event | Update id=90782021 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:11,662 | INFO | aiogram.event | Update id=90782022 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:20,476 | INFO | aiogram.event | Update id=90782023 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:35,820 | INFO | aiogram.event | Update id=90782024 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:36,604 | INFO | aiogram.event | Update id=90782025 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:12:52,659 | INFO | aiogram.event | Update id=90782026 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:13:00,119 | INFO | aiogram.event | Update id=90782027 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:13:21,660 | INFO | aiogram.event | Update id=90782028 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:13:30,159 | INFO | aiogram.event | Update id=90782029 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:13:59,824 | INFO | aiogram.event | Update id=90782030 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:14:09,505 | INFO | aiogram.event | Update id=90782032 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:14:09,505 | INFO | aiogram.event | Update id=90782031 is not handled. Duration 2 ms by bot id=8508853940
+2026-05-09 12:14:09,505 | INFO | aiogram.event | Update id=90782033 is not handled. Duration 2 ms by bot id=8508853940
+2026-05-09 12:14:09,505 | INFO | aiogram.event | Update id=90782034 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:14:10,328 | INFO | aiogram.event | Update id=90782035 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:14:19,021 | INFO | aiogram.event | Update id=90782036 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:14:32,827 | INFO | aiogram.event | Update id=90782037 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:14:40,203 | INFO | aiogram.event | Update id=90782038 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:19,044 | INFO | aiogram.event | Update id=90782039 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:25,538 | INFO | aiogram.event | Update id=90782040 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:36,722 | INFO | aiogram.event | Update id=90782041 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:44,136 | INFO | aiogram.event | Update id=90782042 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:50,523 | INFO | aiogram.event | Update id=90782043 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:54,602 | INFO | aiogram.event | Update id=90782044 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:15:57,297 | INFO | aiogram.event | Update id=90782045 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:06,697 | INFO | aiogram.event | Update id=90782046 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:12,961 | INFO | aiogram.event | Update id=90782047 is handled. Duration 295 ms by bot id=8508853940
+2026-05-09 12:16:18,886 | INFO | aiogram.event | Update id=90782048 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:21,606 | INFO | aiogram.event | Update id=90782049 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:29,020 | INFO | aiogram.event | Update id=90782050 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:42,921 | INFO | aiogram.event | Update id=90782051 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:16:47,848 | INFO | aiogram.event | Update id=90782052 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:17,014 | INFO | aiogram.event | Update id=90782053 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:20,260 | INFO | aiogram.event | Update id=90782054 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:34,252 | INFO | aiogram.event | Update id=90782055 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:39,503 | INFO | aiogram.event | Update id=90782056 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:40,244 | INFO | aiogram.event | Update id=90782057 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:43,516 | INFO | aiogram.event | Update id=90782058 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:47,399 | INFO | aiogram.event | Update id=90782059 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:17:53,585 | INFO | aiogram.event | Update id=90782060 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:01,018 | INFO | aiogram.event | Update id=90782061 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:02,750 | INFO | aiogram.event | Update id=90782062 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:06,611 | INFO | aiogram.event | Update id=90782063 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:07,735 | INFO | aiogram.event | Update id=90782064 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:33,010 | INFO | aiogram.event | Update id=90782065 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:54,648 | INFO | aiogram.event | Update id=90782066 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:18:58,607 | INFO | aiogram.event | Update id=90782067 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:19:08,692 | INFO | aiogram.event | Update id=90782068 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:19:39,914 | INFO | aiogram.event | Update id=90782069 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:20:14,534 | INFO | aiogram.event | Update id=90782070 is handled. Duration 76 ms by bot id=8508853940
+2026-05-09 12:20:15,615 | INFO | aiogram.event | Update id=90782071 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:20:23,445 | INFO | aiogram.event | Update id=90782072 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:20:33,156 | INFO | aiogram.event | Update id=90782073 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:20:37,340 | INFO | aiogram.event | Update id=90782074 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:21:38,858 | INFO | aiogram.event | Update id=90782075 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:22:23,550 | INFO | aiogram.event | Update id=90782076 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:22:33,498 | INFO | aiogram.event | Update id=90782077 is handled. Duration 228 ms by bot id=8508853940
+2026-05-09 12:22:35,357 | INFO | aiogram.event | Update id=90782078 is handled. Duration 215 ms by bot id=8508853940
+2026-05-09 12:22:38,099 | INFO | aiogram.event | Update id=90782079 is handled. Duration 100 ms by bot id=8508853940
+2026-05-09 12:22:55,015 | INFO | aiogram.event | Update id=90782080 is handled. Duration 283 ms by bot id=8508853940
+2026-05-09 12:23:01,351 | INFO | aiogram.event | Update id=90782081 is handled. Duration 156 ms by bot id=8508853940
+2026-05-09 12:23:04,007 | INFO | aiogram.event | Update id=90782082 is handled. Duration 141 ms by bot id=8508853940
+2026-05-09 12:23:05,374 | INFO | aiogram.event | Update id=90782083 is handled. Duration 133 ms by bot id=8508853940
+2026-05-09 12:23:06,303 | INFO | aiogram.event | Update id=90782084 is handled. Duration 135 ms by bot id=8508853940
+2026-05-09 12:23:08,524 | INFO | aiogram.event | Update id=90782085 is handled. Duration 127 ms by bot id=8508853940
+2026-05-09 12:23:10,887 | INFO | aiogram.event | Update id=90782086 is handled. Duration 135 ms by bot id=8508853940
+2026-05-09 12:23:11,672 | INFO | aiogram.event | Update id=90782087 is handled. Duration 140 ms by bot id=8508853940
+2026-05-09 12:23:55,870 | INFO | aiogram.event | Update id=90782088 is handled. Duration 932 ms by bot id=8508853940
+2026-05-09 12:24:00,926 | INFO | aiogram.event | Update id=90782089 is handled. Duration 196 ms by bot id=8508853940
+2026-05-09 12:24:10,308 | INFO | aiogram.event | Update id=90782090 is handled. Duration 168 ms by bot id=8508853940
+2026-05-09 12:24:14,654 | INFO | aiogram.event | Update id=90782091 is handled. Duration 129 ms by bot id=8508853940
+2026-05-09 12:24:16,444 | INFO | aiogram.event | Update id=90782092 is handled. Duration 144 ms by bot id=8508853940
+2026-05-09 12:31:42,417 | INFO | aiogram.event | Update id=90782093 is handled. Duration 241 ms by bot id=8508853940
+2026-05-09 12:31:52,024 | INFO | aiogram.event | Update id=90782094 is handled. Duration 228 ms by bot id=8508853940
+2026-05-09 12:32:20,865 | INFO | aiogram.event | Update id=90782095 is handled. Duration 147 ms by bot id=8508853940
+2026-05-09 12:32:35,683 | INFO | aiogram.event | Update id=90782096 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:32:39,526 | INFO | aiogram.event | Update id=90782097 is handled. Duration 221 ms by bot id=8508853940
+2026-05-09 12:32:47,203 | INFO | aiogram.event | Update id=90782098 is handled. Duration 106 ms by bot id=8508853940
+2026-05-09 12:32:56,704 | INFO | aiogram.event | Update id=90782099 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:32:58,912 | INFO | aiogram.event | Update id=90782100 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:33:01,900 | INFO | aiogram.event | Update id=90782101 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:33:07,607 | INFO | aiogram.event | Update id=90782102 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:33:13,693 | INFO | aiogram.event | Update id=90782103 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:33:15,495 | INFO | aiogram.event | Update id=90782104 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:33:23,989 | INFO | aiogram.event | Update id=90782105 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:33:38,654 | INFO | aiogram.event | Update id=90782106 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:33:54,639 | INFO | aiogram.event | Update id=90782107 is handled. Duration 143 ms by bot id=8508853940
+2026-05-09 12:33:58,673 | INFO | aiogram.event | Update id=90782108 is handled. Duration 138 ms by bot id=8508853940
+2026-05-09 12:33:59,649 | INFO | aiogram.event | Update id=90782109 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:34:02,821 | INFO | aiogram.event | Update id=90782110 is handled. Duration 951 ms by bot id=8508853940
+2026-05-09 12:34:07,592 | INFO | aiogram.event | Update id=90782111 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:34:19,681 | INFO | aiogram.event | Update id=90782112 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:36:39,916 | INFO | aiogram.event | Update id=90782113 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:37:00,514 | INFO | aiogram.event | Update id=90782114 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:05,881 | INFO | aiogram.event | Update id=90782115 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:07,887 | INFO | aiogram.event | Update id=90782116 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:23,481 | INFO | aiogram.event | Update id=90782117 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:30,507 | INFO | aiogram.event | Update id=90782118 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:32,931 | INFO | aiogram.event | Update id=90782119 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:41,556 | INFO | aiogram.event | Update id=90782120 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:37:51,082 | INFO | aiogram.event | Update id=90782121 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:38:01,414 | INFO | aiogram.event | Update id=90782122 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:38:03,676 | INFO | aiogram.event | Update id=90782123 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:38:05,015 | INFO | aiogram.event | Update id=90782124 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:38:14,580 | INFO | aiogram.event | Update id=90782125 is handled. Duration 179 ms by bot id=8508853940
+2026-05-09 12:38:47,053 | INFO | aiogram.event | Update id=90782126 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:38:58,257 | INFO | aiogram.event | Update id=90782127 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:39:02,111 | INFO | aiogram.event | Update id=90782128 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:39:10,926 | INFO | aiogram.event | Update id=90782129 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:39:18,564 | INFO | aiogram.event | Update id=90782130 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:39:45,133 | INFO | aiogram.event | Update id=90782131 is handled. Duration 157 ms by bot id=8508853940
+2026-05-09 12:39:49,098 | INFO | aiogram.event | Update id=90782132 is handled. Duration 386 ms by bot id=8508853940
+2026-05-09 12:39:53,152 | INFO | aiogram.event | Update id=90782133 is handled. Duration 167 ms by bot id=8508853940
+2026-05-09 12:39:59,824 | INFO | aiogram.event | Update id=90782134 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:12,327 | INFO | aiogram.event | Update id=90782135 is handled. Duration 115 ms by bot id=8508853940
+2026-05-09 12:40:21,680 | INFO | aiogram.event | Update id=90782136 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:26,819 | INFO | aiogram.event | Update id=90782137 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:34,284 | INFO | aiogram.event | Update id=90782138 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:43,692 | INFO | aiogram.event | Update id=90782139 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:50,019 | INFO | aiogram.event | Update id=90782140 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:40:51,508 | INFO | aiogram.event | Update id=90782141 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:41:06,983 | INFO | aiogram.event | Update id=90782142 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:42:59,631 | INFO | aiogram.event | Update id=90782143 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:43:18,219 | INFO | aiogram.event | Update id=90782144 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:43:26,341 | INFO | aiogram.event | Update id=90782145 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:43:49,128 | INFO | aiogram.event | Update id=90782146 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:43:57,252 | INFO | aiogram.event | Update id=90782147 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:44:11,910 | INFO | aiogram.event | Update id=90782148 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:44:25,780 | INFO | aiogram.event | Update id=90782149 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:44:58,599 | INFO | aiogram.event | Update id=90782150 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:45:09,872 | INFO | aiogram.event | Update id=90782151 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:45:15,503 | INFO | aiogram.event | Update id=90782152 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:45:36,609 | INFO | aiogram.event | Update id=90782153 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:45:54,679 | INFO | aiogram.event | Update id=90782154 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:46:05,759 | INFO | aiogram.event | Update id=90782155 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:46:10,868 | INFO | aiogram.event | Update id=90782156 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:46:22,396 | INFO | aiogram.event | Update id=90782157 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:46:34,987 | INFO | aiogram.event | Update id=90782158 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:46:39,479 | INFO | aiogram.event | Update id=90782159 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:46:56,917 | INFO | aiogram.event | Update id=90782160 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:47:04,376 | INFO | aiogram.event | Update id=90782161 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:47:39,087 | INFO | aiogram.event | Update id=90782162 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:47:40,467 | INFO | aiogram.event | Update id=90782163 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:48:00,489 | INFO | aiogram.event | Update id=90782164 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:48:03,704 | INFO | aiogram.event | Update id=90782165 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 12:48:10,985 | INFO | aiogram.event | Update id=90782166 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 12:58:54,705 | INFO | aiogram.event | Update id=90782167 is handled. Duration 123 ms by bot id=8508853940
+2026-05-09 12:59:07,097 | INFO | aiogram.event | Update id=90782168 is handled. Duration 156 ms by bot id=8508853940
+2026-05-09 12:59:10,065 | INFO | aiogram.event | Update id=90782169 is handled. Duration 561 ms by bot id=8508853940
+2026-05-09 12:59:17,889 | INFO | aiogram.event | Update id=90782170 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:00:13,214 | INFO | aiogram.event | Update id=90782171 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:00:31,730 | INFO | aiogram.event | Update id=90782172 is handled. Duration 80 ms by bot id=8508853940
+2026-05-09 13:00:38,146 | INFO | aiogram.event | Update id=90782173 is handled. Duration 90 ms by bot id=8508853940
+2026-05-09 13:00:46,101 | INFO | aiogram.event | Update id=90782174 is handled. Duration 103 ms by bot id=8508853940
+2026-05-09 13:00:48,284 | INFO | aiogram.event | Update id=90782175 is handled. Duration 196 ms by bot id=8508853940
+2026-05-09 13:01:00,637 | INFO | aiogram.event | Update id=90782176 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:01:42,842 | INFO | aiogram.event | Update id=90782177 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:01:50,922 | INFO | aiogram.event | Update id=90782178 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:02:06,255 | INFO | aiogram.event | Update id=90782179 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:02:28,243 | INFO | aiogram.event | Update id=90782180 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:02:29,099 | INFO | aiogram.event | Update id=90782181 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:02:58,437 | INFO | aiogram.event | Update id=90782182 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:04:36,498 | INFO | aiogram.event | Update id=90782183 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:07:05,216 | INFO | aiogram.event | Update id=90782184 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:07:07,757 | INFO | aiogram.event | Update id=90782185 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:11:30,287 | INFO | aiogram.event | Update id=90782186 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:11:33,873 | INFO | aiogram.event | Update id=90782187 is handled. Duration 54 ms by bot id=8508853940
+2026-05-09 13:15:20,134 | INFO | aiogram.event | Update id=90782188 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:16:15,824 | INFO | aiogram.event | Update id=90782189 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:16:27,711 | INFO | aiogram.event | Update id=90782190 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:16:44,835 | INFO | aiogram.event | Update id=90782191 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:17:08,979 | INFO | aiogram.event | Update id=90782192 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:18:02,092 | INFO | aiogram.event | Update id=90782193 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:21:07,923 | INFO | aiogram.event | Update id=90782194 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:21:11,577 | INFO | aiogram.event | Update id=90782195 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:21:21,591 | INFO | aiogram.event | Update id=90782196 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:21:40,864 | INFO | aiogram.event | Update id=90782197 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:24:04,685 | INFO | aiogram.event | Update id=90782198 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:39:13,180 | INFO | aiogram.event | Update id=90782199 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:39:28,471 | INFO | aiogram.event | Update id=90782200 is handled. Duration 229 ms by bot id=8508853940
+2026-05-09 13:39:30,566 | INFO | aiogram.event | Update id=90782201 is handled. Duration 153 ms by bot id=8508853940
+2026-05-09 13:39:33,380 | INFO | aiogram.event | Update id=90782202 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:39:34,736 | INFO | aiogram.event | Update id=90782203 is handled. Duration 172 ms by bot id=8508853940
+2026-05-09 13:39:39,639 | INFO | aiogram.event | Update id=90782204 is handled. Duration 130 ms by bot id=8508853940
+2026-05-09 13:39:40,961 | INFO | aiogram.event | Update id=90782205 is handled. Duration 147 ms by bot id=8508853940
+2026-05-09 13:39:43,458 | INFO | aiogram.event | Update id=90782206 is handled. Duration 137 ms by bot id=8508853940
+2026-05-09 13:39:43,657 | INFO | aiogram.event | Update id=90782207 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:39:47,147 | INFO | aiogram.event | Update id=90782208 is handled. Duration 133 ms by bot id=8508853940
+2026-05-09 13:39:51,219 | INFO | aiogram.event | Update id=90782209 is handled. Duration 148 ms by bot id=8508853940
+2026-05-09 13:39:55,170 | INFO | aiogram.event | Update id=90782210 is handled. Duration 80 ms by bot id=8508853940
+2026-05-09 13:39:58,112 | INFO | aiogram.event | Update id=90782211 is handled. Duration 152 ms by bot id=8508853940
+2026-05-09 13:40:01,235 | INFO | aiogram.event | Update id=90782212 is handled. Duration 237 ms by bot id=8508853940
+2026-05-09 13:40:18,502 | INFO | aiogram.event | Update id=90782213 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:26,398 | INFO | aiogram.event | Update id=90782214 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:33,032 | INFO | aiogram.event | Update id=90782215 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:33,208 | INFO | aiogram.event | Update id=90782216 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:33,365 | INFO | aiogram.event | Update id=90782217 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:33,547 | INFO | aiogram.event | Update id=90782218 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:33,862 | INFO | aiogram.event | Update id=90782219 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:34,020 | INFO | aiogram.event | Update id=90782220 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:34,347 | INFO | aiogram.event | Update id=90782221 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:34,560 | INFO | aiogram.event | Update id=90782222 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:34,719 | INFO | aiogram.event | Update id=90782223 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:34,858 | INFO | aiogram.event | Update id=90782224 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,026 | INFO | aiogram.event | Update id=90782225 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,268 | INFO | aiogram.event | Update id=90782226 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,414 | INFO | aiogram.event | Update id=90782227 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,565 | INFO | aiogram.event | Update id=90782228 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,779 | INFO | aiogram.event | Update id=90782229 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:35,905 | INFO | aiogram.event | Update id=90782230 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,110 | INFO | aiogram.event | Update id=90782231 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,364 | INFO | aiogram.event | Update id=90782232 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,459 | INFO | aiogram.event | Update id=90782233 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,636 | INFO | aiogram.event | Update id=90782234 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,836 | INFO | aiogram.event | Update id=90782235 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:36,954 | INFO | aiogram.event | Update id=90782236 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:37,150 | INFO | aiogram.event | Update id=90782237 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:37,468 | INFO | aiogram.event | Update id=90782238 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:39,740 | INFO | aiogram.event | Update id=90782239 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:39,966 | INFO | aiogram.event | Update id=90782240 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:40,130 | INFO | aiogram.event | Update id=90782241 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:40,285 | INFO | aiogram.event | Update id=90782242 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:40,614 | INFO | aiogram.event | Update id=90782243 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:40,792 | INFO | aiogram.event | Update id=90782244 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:41,024 | INFO | aiogram.event | Update id=90782245 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:41,283 | INFO | aiogram.event | Update id=90782246 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:41,647 | INFO | aiogram.event | Update id=90782247 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:41,953 | INFO | aiogram.event | Update id=90782248 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:42,135 | INFO | aiogram.event | Update id=90782249 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:42,387 | INFO | aiogram.event | Update id=90782250 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:42,555 | INFO | aiogram.event | Update id=90782251 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:42,680 | INFO | aiogram.event | Update id=90782252 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:42,909 | INFO | aiogram.event | Update id=90782253 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:43,241 | INFO | aiogram.event | Update id=90782254 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:54,489 | INFO | aiogram.event | Update id=90782255 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:54,536 | INFO | aiogram.event | Update id=90782256 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:54,651 | INFO | aiogram.event | Update id=90782257 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:54,970 | INFO | aiogram.event | Update id=90782258 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:55,249 | INFO | aiogram.event | Update id=90782259 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:55,437 | INFO | aiogram.event | Update id=90782260 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:55,562 | INFO | aiogram.event | Update id=90782261 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:55,771 | INFO | aiogram.event | Update id=90782262 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:56,062 | INFO | aiogram.event | Update id=90782263 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:56,286 | INFO | aiogram.event | Update id=90782264 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:56,426 | INFO | aiogram.event | Update id=90782265 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:56,597 | INFO | aiogram.event | Update id=90782266 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:56,904 | INFO | aiogram.event | Update id=90782267 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,118 | INFO | aiogram.event | Update id=90782268 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,303 | INFO | aiogram.event | Update id=90782269 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,458 | INFO | aiogram.event | Update id=90782270 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,670 | INFO | aiogram.event | Update id=90782271 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,822 | INFO | aiogram.event | Update id=90782272 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:57,985 | INFO | aiogram.event | Update id=90782273 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:58,156 | INFO | aiogram.event | Update id=90782274 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:58,308 | INFO | aiogram.event | Update id=90782275 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:59,590 | INFO | aiogram.event | Update id=90782276 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:40:59,675 | INFO | aiogram.event | Update id=90782277 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:40:59,883 | INFO | aiogram.event | Update id=90782278 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:00,178 | INFO | aiogram.event | Update id=90782279 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:00,356 | INFO | aiogram.event | Update id=90782280 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:00,527 | INFO | aiogram.event | Update id=90782281 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:00,690 | INFO | aiogram.event | Update id=90782282 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:00,989 | INFO | aiogram.event | Update id=90782283 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:01,164 | INFO | aiogram.event | Update id=90782284 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:01,355 | INFO | aiogram.event | Update id=90782285 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:01,508 | INFO | aiogram.event | Update id=90782286 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:01,712 | INFO | aiogram.event | Update id=90782287 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:01,918 | INFO | aiogram.event | Update id=90782288 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:02,134 | INFO | aiogram.event | Update id=90782289 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:02,302 | INFO | aiogram.event | Update id=90782290 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:02,443 | INFO | aiogram.event | Update id=90782291 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:02,770 | INFO | aiogram.event | Update id=90782292 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:03,300 | INFO | aiogram.event | Update id=90782293 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:03,600 | INFO | aiogram.event | Update id=90782294 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:03,768 | INFO | aiogram.event | Update id=90782295 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:03,921 | INFO | aiogram.event | Update id=90782296 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:04,271 | INFO | aiogram.event | Update id=90782297 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:04,428 | INFO | aiogram.event | Update id=90782298 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:04,633 | INFO | aiogram.event | Update id=90782299 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:04,845 | INFO | aiogram.event | Update id=90782300 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:05,047 | INFO | aiogram.event | Update id=90782301 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:05,182 | INFO | aiogram.event | Update id=90782302 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:05,307 | INFO | aiogram.event | Update id=90782303 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:05,440 | INFO | aiogram.event | Update id=90782304 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:05,617 | INFO | aiogram.event | Update id=90782305 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:06,226 | INFO | aiogram.event | Update id=90782306 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:06,551 | INFO | aiogram.event | Update id=90782307 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:06,670 | INFO | aiogram.event | Update id=90782308 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:06,861 | INFO | aiogram.event | Update id=90782309 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:07,033 | INFO | aiogram.event | Update id=90782310 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:07,286 | INFO | aiogram.event | Update id=90782311 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:07,572 | INFO | aiogram.event | Update id=90782312 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:07,769 | INFO | aiogram.event | Update id=90782313 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:07,937 | INFO | aiogram.event | Update id=90782314 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:08,149 | INFO | aiogram.event | Update id=90782315 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:41:08,355 | INFO | aiogram.event | Update id=90782316 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:08,535 | INFO | aiogram.event | Update id=90782317 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:08,776 | INFO | aiogram.event | Update id=90782318 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:09,147 | INFO | aiogram.event | Update id=90782319 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:41:09,195 | INFO | aiogram.event | Update id=90782320 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:09,361 | INFO | aiogram.event | Update id=90782321 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:09,579 | INFO | aiogram.event | Update id=90782322 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:09,786 | INFO | aiogram.event | Update id=90782323 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:09,998 | INFO | aiogram.event | Update id=90782324 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:10,198 | INFO | aiogram.event | Update id=90782325 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:10,369 | INFO | aiogram.event | Update id=90782326 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:10,595 | INFO | aiogram.event | Update id=90782327 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:10,773 | INFO | aiogram.event | Update id=90782328 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:10,926 | INFO | aiogram.event | Update id=90782329 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:11,145 | INFO | aiogram.event | Update id=90782330 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:11,478 | INFO | aiogram.event | Update id=90782331 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:11,646 | INFO | aiogram.event | Update id=90782332 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:11,837 | INFO | aiogram.event | Update id=90782333 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:12,041 | INFO | aiogram.event | Update id=90782334 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:12,278 | INFO | aiogram.event | Update id=90782335 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:12,447 | INFO | aiogram.event | Update id=90782336 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:12,668 | INFO | aiogram.event | Update id=90782337 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:12,831 | INFO | aiogram.event | Update id=90782338 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:13,010 | INFO | aiogram.event | Update id=90782339 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:13,173 | INFO | aiogram.event | Update id=90782340 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:13,378 | INFO | aiogram.event | Update id=90782341 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:41:13,536 | INFO | aiogram.event | Update id=90782342 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:13,709 | INFO | aiogram.event | Update id=90782343 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:13,929 | INFO | aiogram.event | Update id=90782344 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:14,241 | INFO | aiogram.event | Update id=90782345 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:14,425 | INFO | aiogram.event | Update id=90782346 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:14,619 | INFO | aiogram.event | Update id=90782347 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:14,790 | INFO | aiogram.event | Update id=90782348 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:15,027 | INFO | aiogram.event | Update id=90782349 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:15,268 | INFO | aiogram.event | Update id=90782350 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:15,370 | INFO | aiogram.event | Update id=90782351 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:15,574 | INFO | aiogram.event | Update id=90782352 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:15,737 | INFO | aiogram.event | Update id=90782353 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:16,144 | INFO | aiogram.event | Update id=90782354 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:16,372 | INFO | aiogram.event | Update id=90782355 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:16,964 | INFO | aiogram.event | Update id=90782356 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:17,129 | INFO | aiogram.event | Update id=90782357 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:17,460 | INFO | aiogram.event | Update id=90782358 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:17,657 | INFO | aiogram.event | Update id=90782359 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:17,850 | INFO | aiogram.event | Update id=90782360 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,015 | INFO | aiogram.event | Update id=90782361 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,192 | INFO | aiogram.event | Update id=90782362 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,396 | INFO | aiogram.event | Update id=90782363 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,594 | INFO | aiogram.event | Update id=90782364 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,769 | INFO | aiogram.event | Update id=90782365 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:18,952 | INFO | aiogram.event | Update id=90782366 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:19,136 | INFO | aiogram.event | Update id=90782367 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:19,321 | INFO | aiogram.event | Update id=90782368 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:19,539 | INFO | aiogram.event | Update id=90782369 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:19,699 | INFO | aiogram.event | Update id=90782370 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:19,901 | INFO | aiogram.event | Update id=90782371 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:20,093 | INFO | aiogram.event | Update id=90782372 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:20,292 | INFO | aiogram.event | Update id=90782373 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:20,462 | INFO | aiogram.event | Update id=90782374 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:20,668 | INFO | aiogram.event | Update id=90782375 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:20,847 | INFO | aiogram.event | Update id=90782376 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:21,046 | INFO | aiogram.event | Update id=90782377 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:21,263 | INFO | aiogram.event | Update id=90782378 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:21,450 | INFO | aiogram.event | Update id=90782379 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:21,641 | INFO | aiogram.event | Update id=90782380 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:21,850 | INFO | aiogram.event | Update id=90782381 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:22,044 | INFO | aiogram.event | Update id=90782382 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:22,268 | INFO | aiogram.event | Update id=90782383 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:22,441 | INFO | aiogram.event | Update id=90782384 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:24,080 | INFO | aiogram.event | Update id=90782385 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:24,289 | INFO | aiogram.event | Update id=90782386 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:24,442 | INFO | aiogram.event | Update id=90782387 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:24,656 | INFO | aiogram.event | Update id=90782388 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:24,817 | INFO | aiogram.event | Update id=90782389 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:25,019 | INFO | aiogram.event | Update id=90782390 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:25,207 | INFO | aiogram.event | Update id=90782391 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:25,382 | INFO | aiogram.event | Update id=90782392 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:34,743 | INFO | aiogram.event | Update id=90782393 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:34,904 | INFO | aiogram.event | Update id=90782394 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:35,149 | INFO | aiogram.event | Update id=90782395 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:35,298 | INFO | aiogram.event | Update id=90782396 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:35,530 | INFO | aiogram.event | Update id=90782397 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:35,727 | INFO | aiogram.event | Update id=90782398 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:35,858 | INFO | aiogram.event | Update id=90782399 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:36,072 | INFO | aiogram.event | Update id=90782400 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:36,287 | INFO | aiogram.event | Update id=90782401 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:36,529 | INFO | aiogram.event | Update id=90782402 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:36,763 | INFO | aiogram.event | Update id=90782403 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:36,989 | INFO | aiogram.event | Update id=90782404 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:37,236 | INFO | aiogram.event | Update id=90782405 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:37,591 | INFO | aiogram.event | Update id=90782406 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:37,791 | INFO | aiogram.event | Update id=90782407 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:37,981 | INFO | aiogram.event | Update id=90782408 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:38,162 | INFO | aiogram.event | Update id=90782409 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:38,349 | INFO | aiogram.event | Update id=90782410 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:38,532 | INFO | aiogram.event | Update id=90782411 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:38,729 | INFO | aiogram.event | Update id=90782412 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:38,904 | INFO | aiogram.event | Update id=90782413 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:39,097 | INFO | aiogram.event | Update id=90782414 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:39,306 | INFO | aiogram.event | Update id=90782415 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:39,553 | INFO | aiogram.event | Update id=90782416 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:39,764 | INFO | aiogram.event | Update id=90782417 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:39,984 | INFO | aiogram.event | Update id=90782418 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:40,200 | INFO | aiogram.event | Update id=90782419 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:40,387 | INFO | aiogram.event | Update id=90782420 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:40,566 | INFO | aiogram.event | Update id=90782421 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:40,784 | INFO | aiogram.event | Update id=90782422 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:41,054 | INFO | aiogram.event | Update id=90782423 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:41,334 | INFO | aiogram.event | Update id=90782424 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:41,537 | INFO | aiogram.event | Update id=90782425 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:41,809 | INFO | aiogram.event | Update id=90782426 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:42,103 | INFO | aiogram.event | Update id=90782427 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:42,394 | INFO | aiogram.event | Update id=90782428 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:42,660 | INFO | aiogram.event | Update id=90782429 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:42,928 | INFO | aiogram.event | Update id=90782430 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:43,219 | INFO | aiogram.event | Update id=90782431 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:43,418 | INFO | aiogram.event | Update id=90782432 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:43,733 | INFO | aiogram.event | Update id=90782433 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:43,913 | INFO | aiogram.event | Update id=90782434 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:44,094 | INFO | aiogram.event | Update id=90782435 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:44,298 | INFO | aiogram.event | Update id=90782436 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:44,478 | INFO | aiogram.event | Update id=90782437 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:44,681 | INFO | aiogram.event | Update id=90782438 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:44,957 | INFO | aiogram.event | Update id=90782439 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:46,701 | INFO | aiogram.event | Update id=90782440 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:41:55,129 | INFO | aiogram.event | Update id=90782441 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:42:17,075 | INFO | aiogram.event | Update id=90782442 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:42:21,727 | INFO | aiogram.event | Update id=90782443 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:42:26,142 | INFO | aiogram.event | Update id=90782444 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:43:28,094 | INFO | aiogram.event | Update id=90782445 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:43:34,406 | INFO | aiogram.event | Update id=90782446 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 13:43:57,335 | INFO | aiogram.event | Update id=90782447 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:45:53,696 | INFO | aiogram.event | Update id=90782448 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:47:56,946 | INFO | aiogram.event | Update id=90782449 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:48:04,483 | INFO | aiogram.event | Update id=90782450 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:48:35,505 | INFO | aiogram.event | Update id=90782451 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 13:55:28,348 | INFO | aiogram.event | Update id=90782452 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:04:22,623 | INFO | aiogram.event | Update id=90782453 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:04:44,558 | INFO | aiogram.event | Update id=90782454 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:05:32,707 | INFO | aiogram.event | Update id=90782455 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:05:53,522 | INFO | aiogram.event | Update id=90782456 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:06:00,416 | INFO | aiogram.event | Update id=90782457 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:06:42,218 | INFO | aiogram.event | Update id=90782458 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:08:18,001 | INFO | aiogram.event | Update id=90782459 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:08:18,731 | INFO | aiogram.event | Update id=90782460 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:09:04,366 | INFO | aiogram.event | Update id=90782461 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:25:06,816 | INFO | aiogram.event | Update id=90782462 is handled. Duration 55 ms by bot id=8508853940
+2026-05-09 14:26:29,678 | INFO | aiogram.event | Update id=90782463 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:26:39,321 | INFO | aiogram.event | Update id=90782464 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:27:02,838 | INFO | aiogram.event | Update id=90782465 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:27:05,858 | INFO | aiogram.event | Update id=90782466 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:35:13,111 | INFO | aiogram.event | Update id=90782467 is handled. Duration 239 ms by bot id=8508853940
+2026-05-09 14:35:18,638 | INFO | aiogram.event | Update id=90782468 is handled. Duration 332 ms by bot id=8508853940
+2026-05-09 14:35:22,419 | INFO | aiogram.event | Update id=90782469 is handled. Duration 145 ms by bot id=8508853940
+2026-05-09 14:35:45,667 | INFO | aiogram.event | Update id=90782470 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:37:07,086 | INFO | aiogram.event | Update id=90782471 is handled. Duration 135 ms by bot id=8508853940
+2026-05-09 14:37:12,267 | INFO | aiogram.event | Update id=90782472 is handled. Duration 139 ms by bot id=8508853940
+2026-05-09 14:37:19,701 | INFO | aiogram.event | Update id=90782473 is handled. Duration 1252 ms by bot id=8508853940
+2026-05-09 14:37:57,820 | INFO | aiogram.event | Update id=90782474 is handled. Duration 113 ms by bot id=8508853940
+2026-05-09 14:38:24,971 | INFO | aiogram.event | Update id=90782475 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:34,825 | INFO | aiogram.event | Update id=90782476 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:39,037 | INFO | aiogram.event | Update id=90782477 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:43,322 | INFO | aiogram.event | Update id=90782478 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:48,979 | INFO | aiogram.event | Update id=90782479 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:52,754 | INFO | aiogram.event | Update id=90782480 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:38:56,778 | INFO | aiogram.event | Update id=90782481 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:00,497 | INFO | aiogram.event | Update id=90782482 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:04,942 | INFO | aiogram.event | Update id=90782483 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:11,863 | INFO | aiogram.event | Update id=90782484 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:14,712 | INFO | aiogram.event | Update id=90782485 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:21,174 | INFO | aiogram.event | Update id=90782486 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:39:26,659 | INFO | aiogram.event | Update id=90782487 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:30,645 | INFO | aiogram.event | Update id=90782488 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:38,403 | INFO | aiogram.event | Update id=90782489 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:46,153 | INFO | aiogram.event | Update id=90782490 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:52,173 | INFO | aiogram.event | Update id=90782491 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:39:56,762 | INFO | aiogram.event | Update id=90782492 is handled. Duration 814 ms by bot id=8508853940
+2026-05-09 14:40:03,718 | INFO | aiogram.event | Update id=90782493 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:40:15,783 | INFO | aiogram.event | Update id=90782494 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:41:10,059 | INFO | aiogram.event | Update id=90782495 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:41:21,543 | INFO | aiogram.event | Update id=90782496 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:41:34,049 | INFO | aiogram.event | Update id=90782497 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:42:34,940 | INFO | aiogram.event | Update id=90782498 is handled. Duration 106 ms by bot id=8508853940
+2026-05-09 14:43:01,944 | INFO | aiogram.event | Update id=90782499 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:07,313 | INFO | aiogram.event | Update id=90782500 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:11,248 | INFO | aiogram.event | Update id=90782501 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:14,454 | INFO | aiogram.event | Update id=90782502 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:17,298 | INFO | aiogram.event | Update id=90782503 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:21,860 | INFO | aiogram.event | Update id=90782504 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:25,178 | INFO | aiogram.event | Update id=90782505 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:27,849 | INFO | aiogram.event | Update id=90782506 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:30,883 | INFO | aiogram.event | Update id=90782507 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:43:34,560 | INFO | aiogram.event | Update id=90782508 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:39,146 | INFO | aiogram.event | Update id=90782509 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:42,343 | INFO | aiogram.event | Update id=90782510 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:46,656 | INFO | aiogram.event | Update id=90782511 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:49,482 | INFO | aiogram.event | Update id=90782512 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:54,060 | INFO | aiogram.event | Update id=90782513 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:43:57,994 | INFO | aiogram.event | Update id=90782514 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:02,262 | INFO | aiogram.event | Update id=90782515 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:09,803 | INFO | aiogram.event | Update id=90782516 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:13,534 | INFO | aiogram.event | Update id=90782517 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:16,795 | INFO | aiogram.event | Update id=90782518 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:21,311 | INFO | aiogram.event | Update id=90782519 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:25,705 | INFO | aiogram.event | Update id=90782520 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:30,650 | INFO | aiogram.event | Update id=90782521 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:35,034 | INFO | aiogram.event | Update id=90782522 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 14:44:38,820 | INFO | aiogram.event | Update id=90782523 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:42,098 | INFO | aiogram.event | Update id=90782524 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:42,675 | INFO | aiogram.event | Update id=90782525 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:47,357 | INFO | aiogram.event | Update id=90782526 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:51,890 | INFO | aiogram.event | Update id=90782527 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:53,206 | INFO | aiogram.event | Update id=90782528 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:59,745 | INFO | aiogram.event | Update id=90782529 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:44:59,784 | INFO | aiogram.event | Update id=90782530 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:05,496 | INFO | aiogram.event | Update id=90782531 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:05,789 | INFO | aiogram.event | Update id=90782532 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:08,764 | INFO | aiogram.event | Update id=90782533 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:09,173 | INFO | aiogram.event | Update id=90782534 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:14,355 | INFO | aiogram.event | Update id=90782535 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:18,235 | INFO | aiogram.event | Update id=90782536 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:19,383 | INFO | aiogram.event | Update id=90782537 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:24,883 | INFO | aiogram.event | Update id=90782538 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:28,689 | INFO | aiogram.event | Update id=90782539 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:31,717 | INFO | aiogram.event | Update id=90782540 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:35,743 | INFO | aiogram.event | Update id=90782541 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:39,827 | INFO | aiogram.event | Update id=90782542 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:43,473 | INFO | aiogram.event | Update id=90782543 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:46,910 | INFO | aiogram.event | Update id=90782544 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:45:47,435 | INFO | aiogram.event | Update id=90782545 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:45:53,590 | INFO | aiogram.event | Update id=90782546 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:54,462 | INFO | aiogram.event | Update id=90782547 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:45:57,096 | INFO | aiogram.event | Update id=90782548 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:03,376 | INFO | aiogram.event | Update id=90782549 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:46:03,377 | INFO | aiogram.event | Update id=90782550 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:46:07,443 | INFO | aiogram.event | Update id=90782551 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:07,659 | INFO | aiogram.event | Update id=90782552 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:14,362 | INFO | aiogram.event | Update id=90782553 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:18,166 | INFO | aiogram.event | Update id=90782554 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:46:19,211 | INFO | aiogram.event | Update id=90782555 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:24,109 | INFO | aiogram.event | Update id=90782556 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:27,913 | INFO | aiogram.event | Update id=90782557 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:29,648 | INFO | aiogram.event | Update id=90782558 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:34,212 | INFO | aiogram.event | Update id=90782559 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:35,034 | INFO | aiogram.event | Update id=90782560 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:38,703 | INFO | aiogram.event | Update id=90782561 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:39,201 | INFO | aiogram.event | Update id=90782562 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:44,596 | INFO | aiogram.event | Update id=90782563 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:45,553 | INFO | aiogram.event | Update id=90782564 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:49,440 | INFO | aiogram.event | Update id=90782565 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:52,123 | INFO | aiogram.event | Update id=90782566 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:54,705 | INFO | aiogram.event | Update id=90782567 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:46:55,589 | INFO | aiogram.event | Update id=90782568 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:04,945 | INFO | aiogram.event | Update id=90782569 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:06,189 | INFO | aiogram.event | Update id=90782570 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:11,899 | INFO | aiogram.event | Update id=90782571 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:12,626 | INFO | aiogram.event | Update id=90782572 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:18,174 | INFO | aiogram.event | Update id=90782573 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:24,307 | INFO | aiogram.event | Update id=90782574 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:29,902 | INFO | aiogram.event | Update id=90782575 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:47:30,164 | INFO | aiogram.event | Update id=90782576 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:36,280 | INFO | aiogram.event | Update id=90782577 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:39,357 | INFO | aiogram.event | Update id=90782578 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:40,000 | INFO | aiogram.event | Update id=90782579 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:44,329 | INFO | aiogram.event | Update id=90782580 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:45,513 | INFO | aiogram.event | Update id=90782581 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:49,538 | INFO | aiogram.event | Update id=90782582 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:49,769 | INFO | aiogram.event | Update id=90782583 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:50,042 | INFO | aiogram.event | Update id=90782584 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:47:55,589 | INFO | aiogram.event | Update id=90782585 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:03,059 | INFO | aiogram.event | Update id=90782586 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 14:48:08,626 | INFO | aiogram.event | Update id=90782587 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:12,026 | INFO | aiogram.event | Update id=90782588 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:13,473 | INFO | aiogram.event | Update id=90782589 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:15,700 | INFO | aiogram.event | Update id=90782590 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:20,218 | INFO | aiogram.event | Update id=90782591 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:27,437 | INFO | aiogram.event | Update id=90782592 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:32,619 | INFO | aiogram.event | Update id=90782593 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:37,566 | INFO | aiogram.event | Update id=90782594 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:38,401 | INFO | aiogram.event | Update id=90782595 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:46,317 | INFO | aiogram.event | Update id=90782596 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:48:52,086 | INFO | aiogram.event | Update id=90782597 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:49:13,063 | INFO | aiogram.event | Update id=90782598 is handled. Duration 161 ms by bot id=8508853940
+2026-05-09 14:49:18,161 | INFO | aiogram.event | Update id=90782599 is handled. Duration 202 ms by bot id=8508853940
+2026-05-09 14:49:19,591 | INFO | aiogram.event | Update id=90782600 is handled. Duration 121 ms by bot id=8508853940
+2026-05-09 14:49:37,866 | INFO | aiogram.event | Update id=90782601 is handled. Duration 209 ms by bot id=8508853940
+2026-05-09 14:49:50,749 | INFO | aiogram.event | Update id=90782602 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:49:55,861 | INFO | aiogram.event | Update id=90782603 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:49:58,532 | INFO | aiogram.event | Update id=90782604 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:02,831 | INFO | aiogram.event | Update id=90782605 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:09,261 | INFO | aiogram.event | Update id=90782606 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:30,592 | INFO | aiogram.event | Update id=90782607 is handled. Duration 199 ms by bot id=8508853940
+2026-05-09 14:50:34,229 | INFO | aiogram.event | Update id=90782608 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:40,239 | INFO | aiogram.event | Update id=90782609 is handled. Duration 92 ms by bot id=8508853940
+2026-05-09 14:50:48,561 | INFO | aiogram.event | Update id=90782610 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:53,372 | INFO | aiogram.event | Update id=90782611 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:58,910 | INFO | aiogram.event | Update id=90782612 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:50:59,273 | INFO | aiogram.event | Update id=90782613 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:51:14,745 | INFO | aiogram.event | Update id=90782614 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:51:20,838 | INFO | aiogram.event | Update id=90782615 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:51:26,305 | INFO | aiogram.event | Update id=90782616 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:51:31,045 | INFO | aiogram.event | Update id=90782617 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:51:34,194 | INFO | aiogram.event | Update id=90782618 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 14:51:55,265 | INFO | aiogram.event | Update id=90782619 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:52:07,482 | INFO | aiogram.event | Update id=90782620 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:52:13,846 | INFO | aiogram.event | Update id=90782621 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:52:31,979 | INFO | aiogram.event | Update id=90782622 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:52:42,991 | INFO | aiogram.event | Update id=90782623 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:54:03,463 | INFO | aiogram.event | Update id=90782624 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:55:24,279 | INFO | aiogram.event | Update id=90782625 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:55:27,499 | INFO | aiogram.event | Update id=90782626 is handled. Duration 219 ms by bot id=8508853940
+2026-05-09 14:56:26,291 | INFO | aiogram.event | Update id=90782627 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:56:37,342 | INFO | aiogram.event | Update id=90782628 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:58:24,844 | INFO | aiogram.event | Update id=90782629 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:58:27,434 | INFO | aiogram.event | Update id=90782630 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 14:58:35,714 | INFO | aiogram.event | Update id=90782631 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:01:34,699 | INFO | aiogram.event | Update id=90782632 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:01:58,060 | INFO | aiogram.event | Update id=90782633 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:02:14,390 | INFO | aiogram.event | Update id=90782634 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:02:27,484 | INFO | aiogram.event | Update id=90782635 is handled. Duration 86 ms by bot id=8508853940
+2026-05-09 15:02:34,289 | INFO | aiogram.event | Update id=90782636 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:02:40,732 | INFO | aiogram.event | Update id=90782637 is handled. Duration 168 ms by bot id=8508853940
+2026-05-09 15:02:45,732 | INFO | aiogram.event | Update id=90782638 is handled. Duration 134 ms by bot id=8508853940
+2026-05-09 15:02:50,814 | INFO | aiogram.event | Update id=90782639 is handled. Duration 124 ms by bot id=8508853940
+2026-05-09 15:02:55,195 | INFO | aiogram.event | Update id=90782640 is handled. Duration 210 ms by bot id=8508853940
+2026-05-09 15:02:57,232 | INFO | aiogram.event | Update id=90782641 is handled. Duration 208 ms by bot id=8508853940
+2026-05-09 15:02:59,822 | INFO | aiogram.event | Update id=90782642 is handled. Duration 138 ms by bot id=8508853940
+2026-05-09 15:03:03,388 | INFO | aiogram.event | Update id=90782643 is handled. Duration 710 ms by bot id=8508853940
+2026-05-09 15:03:06,820 | INFO | aiogram.event | Update id=90782644 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:03:13,199 | INFO | aiogram.event | Update id=90782645 is handled. Duration 138 ms by bot id=8508853940
+2026-05-09 15:03:19,456 | INFO | aiogram.event | Update id=90782646 is handled. Duration 1098 ms by bot id=8508853940
+2026-05-09 15:06:46,337 | INFO | aiogram.event | Update id=90782647 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:06:55,548 | INFO | aiogram.event | Update id=90782648 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:08:53,378 | INFO | aiogram.event | Update id=90782649 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 15:08:53,379 | INFO | aiogram.event | Update id=90782650 is not handled. Duration 1 ms by bot id=8508853940
+2026-05-09 15:36:33,282 | INFO | aiogram.event | Update id=90782651 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 15:37:07,719 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 15:37:07,720 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 15:37:07,720 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 15:37:07,978 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 15:37:07,986 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)
+2026-05-09 18:09:32,927 | INFO | __main__ | Bot is starting...
+2026-05-09 18:09:32,929 | INFO | app.services.runtime_lock | Runtime lock acquired: runtime\waifu_bot.lock
+2026-05-09 18:09:33,564 | INFO | aiogram.dispatcher | Start polling
+2026-05-09 18:09:33,606 | INFO | aiogram.dispatcher | Run polling for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 18:09:33,749 | INFO | aiogram.event | Update id=90782654 is not handled. Duration 20 ms by bot id=8508853940
+2026-05-09 18:09:33,749 | INFO | aiogram.event | Update id=90782656 is not handled. Duration 20 ms by bot id=8508853940
+2026-05-09 18:09:33,750 | INFO | aiogram.event | Update id=90782658 is not handled. Duration 20 ms by bot id=8508853940
+2026-05-09 18:09:33,750 | INFO | aiogram.event | Update id=90782662 is not handled. Duration 19 ms by bot id=8508853940
+2026-05-09 18:09:33,751 | INFO | aiogram.event | Update id=90782680 is handled. Duration 13 ms by bot id=8508853940
+2026-05-09 18:09:33,751 | INFO | aiogram.event | Update id=90782691 is not handled. Duration 11 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782657 is not handled. Duration 23 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782659 is handled. Duration 23 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782661 is not handled. Duration 22 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782664 is not handled. Duration 21 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782666 is not handled. Duration 21 ms by bot id=8508853940
+2026-05-09 18:09:33,753 | INFO | aiogram.event | Update id=90782676 is handled. Duration 19 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782677 is not handled. Duration 19 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782665 is handled. Duration 22 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782675 is not handled. Duration 19 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782673 is handled. Duration 20 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782679 is handled. Duration 17 ms by bot id=8508853940
+2026-05-09 18:09:33,754 | INFO | aiogram.event | Update id=90782683 is handled. Duration 16 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782685 is handled. Duration 16 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782681 is handled. Duration 17 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782690 is not handled. Duration 15 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782689 is not handled. Duration 15 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782688 is not handled. Duration 15 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782693 is handled. Duration 14 ms by bot id=8508853940
+2026-05-09 18:09:33,755 | INFO | aiogram.event | Update id=90782694 is handled. Duration 14 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782687 is handled. Duration 16 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782696 is handled. Duration 14 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782704 is handled. Duration 12 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782699 is handled. Duration 13 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782702 is handled. Duration 13 ms by bot id=8508853940
+2026-05-09 18:09:33,756 | INFO | aiogram.event | Update id=90782692 is handled. Duration 16 ms by bot id=8508853940
+2026-05-09 18:09:33,757 | INFO | aiogram.event | Update id=90782705 is not handled. Duration 12 ms by bot id=8508853940
+2026-05-09 18:09:33,757 | INFO | aiogram.event | Update id=90782703 is handled. Duration 13 ms by bot id=8508853940
+2026-05-09 18:09:33,768 | INFO | aiogram.event | Update id=90782684 is handled. Duration 30 ms by bot id=8508853940
+2026-05-09 18:09:33,769 | INFO | aiogram.event | Update id=90782660 is handled. Duration 39 ms by bot id=8508853940
+2026-05-09 18:09:33,769 | INFO | aiogram.event | Update id=90782674 is handled. Duration 35 ms by bot id=8508853940
+2026-05-09 18:09:33,770 | INFO | aiogram.event | Update id=90782686 is handled. Duration 31 ms by bot id=8508853940
+2026-05-09 18:09:33,771 | INFO | aiogram.event | Update id=90782672 is handled. Duration 37 ms by bot id=8508853940
+2026-05-09 18:09:33,771 | INFO | aiogram.event | Update id=90782678 is handled. Duration 36 ms by bot id=8508853940
+2026-05-09 18:09:33,771 | INFO | aiogram.event | Update id=90782653 is handled. Duration 43 ms by bot id=8508853940
+2026-05-09 18:09:33,772 | INFO | aiogram.event | Update id=90782682 is handled. Duration 34 ms by bot id=8508853940
+2026-05-09 18:09:33,772 | INFO | aiogram.event | Update id=90782700 is handled. Duration 29 ms by bot id=8508853940
+2026-05-09 18:09:33,773 | INFO | aiogram.event | Update id=90782655 is handled. Duration 44 ms by bot id=8508853940
+2026-05-09 18:09:33,773 | INFO | aiogram.event | Update id=90782663 is handled. Duration 42 ms by bot id=8508853940
+2026-05-09 18:09:33,890 | INFO | aiogram.event | Update id=90782669 is handled. Duration 158 ms by bot id=8508853940
+2026-05-09 18:09:33,915 | INFO | aiogram.event | Update id=90782671 is handled. Duration 182 ms by bot id=8508853940
+2026-05-09 18:09:33,935 | INFO | aiogram.event | Update id=90782670 is handled. Duration 201 ms by bot id=8508853940
+2026-05-09 18:09:33,961 | INFO | aiogram.event | Update id=90782667 is handled. Duration 228 ms by bot id=8508853940
+2026-05-09 18:09:33,967 | INFO | aiogram.event | Update id=90782652 is handled. Duration 240 ms by bot id=8508853940
+2026-05-09 18:09:33,977 | INFO | aiogram.event | Update id=90782668 is handled. Duration 245 ms by bot id=8508853940
+2026-05-09 18:09:34,015 | INFO | aiogram.event | Update id=90782695 is handled. Duration 273 ms by bot id=8508853940
+2026-05-09 18:09:34,072 | INFO | aiogram.event | Update id=90782698 is handled. Duration 329 ms by bot id=8508853940
+2026-05-09 18:09:34,115 | INFO | aiogram.event | Update id=90782697 is handled. Duration 372 ms by bot id=8508853940
+2026-05-09 18:22:04,080 | INFO | aiogram.event | Update id=90782706 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:22:19,388 | INFO | aiogram.event | Update id=90782707 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:23:54,604 | INFO | aiogram.event | Update id=90782708 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:23:57,785 | INFO | aiogram.event | Update id=90782709 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:24:01,258 | INFO | aiogram.event | Update id=90782710 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:24:09,625 | INFO | aiogram.event | Update id=90782711 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:24:17,836 | INFO | aiogram.event | Update id=90782712 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:24:23,413 | INFO | aiogram.event | Update id=90782713 is handled. Duration 86 ms by bot id=8508853940
+2026-05-09 18:24:26,218 | INFO | aiogram.event | Update id=90782714 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:24:28,521 | INFO | aiogram.event | Update id=90782715 is handled. Duration 106 ms by bot id=8508853940
+2026-05-09 18:24:52,197 | INFO | aiogram.event | Update id=90782716 is handled. Duration 92 ms by bot id=8508853940
+2026-05-09 18:24:55,348 | INFO | aiogram.event | Update id=90782717 is handled. Duration 124 ms by bot id=8508853940
+2026-05-09 18:26:01,841 | INFO | aiogram.event | Update id=90782718 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:26:53,176 | INFO | aiogram.event | Update id=90782719 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 18:27:52,503 | INFO | aiogram.event | Update id=90782720 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:05:38,191 | INFO | aiogram.event | Update id=90782721 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:05:46,449 | INFO | aiogram.event | Update id=90782722 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:08:01,954 | INFO | aiogram.event | Update id=90782723 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:08:21,389 | INFO | aiogram.event | Update id=90782724 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:08:24,552 | INFO | aiogram.event | Update id=90782725 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:18:59,577 | INFO | aiogram.event | Update id=90782726 is handled. Duration 181 ms by bot id=8508853940
+2026-05-09 19:20:48,371 | INFO | aiogram.event | Update id=90782727 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 19:21:11,388 | INFO | aiogram.event | Update id=90782728 is handled. Duration 175 ms by bot id=8508853940
+2026-05-09 19:33:24,274 | INFO | aiogram.event | Update id=90782729 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 19:52:28,623 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 19:52:28,624 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 19:52:39,741 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8508853940)
+2026-05-09 19:57:19,917 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2026-05-09 19:57:19,917 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 19:57:41,971 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-05-09 19:57:41,971 | WARNING | aiogram.dispatcher | Sleep for 1.338156 seconds and try again... (tryings = 1, bot id = 8508853940)
+2026-05-09 19:58:04,379 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-05-09 19:58:04,380 | WARNING | aiogram.dispatcher | Sleep for 1.775358 seconds and try again... (tryings = 2, bot id = 8508853940)
+2026-05-09 19:58:27,202 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-05-09 19:58:27,202 | WARNING | aiogram.dispatcher | Sleep for 2.213816 seconds and try again... (tryings = 3, bot id = 8508853940)
+2026-05-09 19:58:50,456 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Превышен таймаут семафора]
+2026-05-09 19:58:50,456 | WARNING | aiogram.dispatcher | Sleep for 2.766491 seconds and try again... (tryings = 4, bot id = 8508853940)
+2026-05-09 19:59:18,513 | INFO | aiogram.dispatcher | Connection established (tryings = 5, bot id = 8508853940)
+2026-05-09 19:59:36,798 | INFO | aiogram.event | Update id=90782730 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:00:11,246 | INFO | aiogram.event | Update id=90782731 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:25:34,480 | INFO | aiogram.event | Update id=90782734 is not handled. Duration 4 ms by bot id=8508853940
+2026-05-09 20:25:34,481 | INFO | aiogram.event | Update id=90782738 is not handled. Duration 4 ms by bot id=8508853940
+2026-05-09 20:25:34,482 | INFO | aiogram.event | Update id=90782739 is not handled. Duration 4 ms by bot id=8508853940
+2026-05-09 20:25:34,482 | INFO | aiogram.event | Update id=90782742 is not handled. Duration 3 ms by bot id=8508853940
+2026-05-09 20:25:34,482 | INFO | aiogram.event | Update id=90782737 is not handled. Duration 5 ms by bot id=8508853940
+2026-05-09 20:25:34,482 | INFO | aiogram.event | Update id=90782740 is not handled. Duration 5 ms by bot id=8508853940
+2026-05-09 20:25:34,483 | INFO | aiogram.event | Update id=90782733 is not handled. Duration 6 ms by bot id=8508853940
+2026-05-09 20:25:34,483 | INFO | aiogram.event | Update id=90782741 is not handled. Duration 5 ms by bot id=8508853940
+2026-05-09 20:25:34,483 | INFO | aiogram.event | Update id=90782732 is not handled. Duration 7 ms by bot id=8508853940
+2026-05-09 20:25:34,483 | INFO | aiogram.event | Update id=90782736 is not handled. Duration 6 ms by bot id=8508853940
+2026-05-09 20:25:34,483 | INFO | aiogram.event | Update id=90782735 is not handled. Duration 7 ms by bot id=8508853940
+2026-05-09 20:29:35,392 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 20:29:35,393 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 20:29:46,554 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8508853940)
+2026-05-09 20:38:42,737 | INFO | aiogram.event | Update id=90782743 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:42:14,744 | INFO | aiogram.event | Update id=90782744 is handled. Duration 66 ms by bot id=8508853940
+2026-05-09 20:42:27,819 | INFO | aiogram.event | Update id=90782745 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:42:41,096 | INFO | aiogram.event | Update id=90782748 is not handled. Duration 2 ms by bot id=8508853940
+2026-05-09 20:42:41,097 | INFO | aiogram.event | Update id=90782749 is not handled. Duration 2 ms by bot id=8508853940
+2026-05-09 20:42:41,097 | INFO | aiogram.event | Update id=90782750 is not handled. Duration 2 ms by bot id=8508853940
+2026-05-09 20:42:41,097 | INFO | aiogram.event | Update id=90782751 is handled. Duration 2 ms by bot id=8508853940
+2026-05-09 20:42:41,097 | INFO | aiogram.event | Update id=90782747 is not handled. Duration 3 ms by bot id=8508853940
+2026-05-09 20:42:41,098 | INFO | aiogram.event | Update id=90782746 is not handled. Duration 4 ms by bot id=8508853940
+2026-05-09 20:43:05,029 | INFO | aiogram.event | Update id=90782752 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:43:24,550 | INFO | aiogram.event | Update id=90782753 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:43:30,391 | INFO | aiogram.event | Update id=90782754 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:43:59,832 | INFO | aiogram.event | Update id=90782755 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:44:38,986 | INFO | aiogram.event | Update id=90782756 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:45:01,195 | INFO | aiogram.event | Update id=90782757 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:45:19,565 | INFO | aiogram.event | Update id=90782758 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:45:25,337 | INFO | aiogram.event | Update id=90782759 is handled. Duration 1 ms by bot id=8508853940
+2026-05-09 20:56:38,212 | INFO | aiogram.event | Update id=90782760 is handled. Duration 54 ms by bot id=8508853940
+2026-05-09 20:57:50,664 | INFO | aiogram.event | Update id=90782761 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:57:52,009 | INFO | aiogram.event | Update id=90782762 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:58:06,794 | INFO | aiogram.event | Update id=90782763 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:58:15,348 | INFO | aiogram.event | Update id=90782764 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 20:59:23,015 | INFO | aiogram.event | Update id=90782765 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 21:00:01,099 | INFO | aiogram.event | Update id=90782766 is not handled. Duration 0 ms by bot id=8508853940
