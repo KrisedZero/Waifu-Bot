@@ -6038,3 +6038,11 @@ PermissionError: [Errno 13] Permission denied
 2026-05-09 20:58:15,348 | INFO | aiogram.event | Update id=90782764 is handled. Duration 0 ms by bot id=8508853940
 2026-05-09 20:59:23,015 | INFO | aiogram.event | Update id=90782765 is handled. Duration 0 ms by bot id=8508853940
 2026-05-09 21:00:01,099 | INFO | aiogram.event | Update id=90782766 is not handled. Duration 0 ms by bot id=8508853940
+2026-05-09 21:38:23,969 | INFO | aiogram.event | Update id=90782767 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 21:38:38,408 | INFO | aiogram.event | Update id=90782768 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 21:39:10,807 | INFO | aiogram.event | Update id=90782769 is handled. Duration 0 ms by bot id=8508853940
+2026-05-09 21:39:35,474 | INFO | aiogram.dispatcher | Polling stopped
+2026-05-09 21:39:35,475 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-05-09 21:39:35,475 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8508853940)
+2026-05-09 21:39:35,739 | INFO | aiogram.dispatcher | Polling stopped for bot @WaifuHaremChatBot id=8508853940 - '𝑾𝒂𝒊𝒇𝒖 𝑯𝒂𝒓𝒆𝒎 𝑩𝒐𝒕'
+2026-05-09 21:39:35,755 | INFO | app.services.runtime_lock | Runtime lock released (runtime\waifu_bot.lock)

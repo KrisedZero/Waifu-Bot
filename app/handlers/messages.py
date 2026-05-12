@@ -1,5 +1,5 @@
 import html
-from aiogram import Router, F
+from aiogram import Router
 from aiogram.types import Message
 
 from app.services.user_service import (
@@ -66,38 +66,36 @@ def get_display_name(waifu: dict, lang: str) -> str:
     return waifu.get("name_en") or waifu.get("name_ru") or "—"
 
 
-@router.message(F.new_chat_members)
-async def welcome_on_added(message: Message):
-    if not message.new_chat_members:
-        return
-
-    me = await message.bot.get_me()
-    if not any(member.id == me.id for member in message.new_chat_members):
-        return
-
-    inviter_lang = "ru"
-    if message.from_user:
-        await create_user_if_not_exists(
-            message.from_user.id,
-            message.from_user.language_code or "ru",
-            message.from_user.username,
-        )
-        inviter_lang = await get_user_language(message.from_user.id)
-
-    await ensure_chat_settings(message.chat.id, default_language=inviter_lang)
-    chat_lang = await get_chat_language(message.chat.id)
-    text = WELCOME_TEXT.get(chat_lang, WELCOME_TEXT["ru"])
-
-    await message.answer(text, parse_mode="HTML")
+def _get_message_payload(message: Message) -> str:
+    """
+    Возвращает текст, по которому можно пытаться угадать вайфу:
+    - text для обычных сообщений
+    - caption для медиа с подписью
+    - пустую строку, если текста нет
+    """
+    return (message.text or message.caption or "").strip()
 
 
-@router.message(F.text & ~F.text.startswith("/"))
+def _is_command_message(message: Message) -> bool:
+    """
+    Команды не считаем как обычные сообщения.
+    Проверяем только текст/подпись, чтобы не реагировать на /start, /help и т.д.
+    """
+    payload = _get_message_payload(message)
+    return payload.startswith("/")
+
+
+@router.message()
 async def all_messages_handler(message: Message):
     if not message.from_user:
         return
 
     # Игровая логика работает только в группах и супергруппах
     if message.chat.type not in {"group", "supergroup"}:
+        return
+
+    # Команды не учитываем вообще
+    if _is_command_message(message):
         return
 
     chat_id = message.chat.id
@@ -111,27 +109,29 @@ async def all_messages_handler(message: Message):
     await ensure_chat_settings(chat_id, default_language=user_lang)
     chat_lang = await get_chat_language(chat_id)
 
-    text_input = message.text.strip()
+    payload = _get_message_payload(message)
 
     active_spawn = get_active_spawn(chat_id)
     if active_spawn:
-        claimed, claimed_waifu, level_info = await try_claim_waifu(chat_id, user_id, text_input)
+        # Если есть текст/подпись — пытаемся поймать вайфу
+        if payload:
+            claimed, claimed_waifu, level_info = await try_claim_waifu(chat_id, user_id, payload)
 
-        if claimed and claimed_waifu:
-            claim_name = get_display_name(claimed_waifu, user_lang)
-            claim_text = get_claim_text(claim_name, claimed_waifu["rarity"], user_lang)
+            if claimed and claimed_waifu:
+                claim_name = get_display_name(claimed_waifu, user_lang)
+                claim_text = get_claim_text(claim_name, claimed_waifu["rarity"], user_lang)
 
-            await message.answer(claim_text, parse_mode="HTML")
+                await message.answer(claim_text, parse_mode="HTML")
+                if level_info and int(level_info.get("new_level", 0)) > int(level_info.get("previous_level", 0)):
+                    user_display = html.escape(message.from_user.full_name if message.from_user else "Player")
+                    level_text = LEVEL_UP_TEXT.get(chat_lang, LEVEL_UP_TEXT["ru"]).format(
+                        user=user_display,
+                        level=int(level_info["new_level"]),
+                    )
+                    await message.answer(level_text, parse_mode="HTML")
+                return
 
-            if level_info and int(level_info.get("new_level", 0)) > int(level_info.get("previous_level", 0)):
-                user_display = html.escape(message.from_user.full_name if message.from_user else "Player")
-                level_text = LEVEL_UP_TEXT.get(chat_lang, LEVEL_UP_TEXT["ru"]).format(
-                    user=user_display,
-                    level=int(level_info["new_level"]),
-                )
-                await message.answer(level_text, parse_mode="HTML")
-            return
-
+        # Любое сообщение человека, включая стикеры/гифки/видео, тикает спавн
         tick_spawn(chat_id)
 
         if not get_active_spawn(chat_id):
@@ -148,6 +148,7 @@ async def all_messages_handler(message: Message):
 
         return
 
+    # Если спавна нет — всё равно считаем сообщение, даже если это стикер/видео/гифка
     event = handle_message(chat_id)
 
     if event != "spawn":
@@ -193,4 +194,29 @@ async def all_messages_handler(message: Message):
         if sent:
             return
 
-    await message.answer(spawn_text)
+    await message.answer(spawn_text, parse_mode="HTML")
+
+
+@router.message(lambda m: m.new_chat_members is not None)
+async def welcome_on_added(message: Message):
+    if not message.new_chat_members:
+        return
+
+    me = await message.bot.get_me()
+    if not any(member.id == me.id for member in message.new_chat_members):
+        return
+
+    inviter_lang = "ru"
+    if message.from_user:
+        await create_user_if_not_exists(
+            message.from_user.id,
+            message.from_user.language_code or "ru",
+            message.from_user.username,
+        )
+        inviter_lang = await get_user_language(message.from_user.id)
+
+    await ensure_chat_settings(message.chat.id, default_language=inviter_lang)
+    chat_lang = await get_chat_language(message.chat.id)
+    text = WELCOME_TEXT.get(chat_lang, WELCOME_TEXT["ru"])
+
+    await message.answer(text, parse_mode="HTML")
